@@ -2,496 +2,400 @@
   "layouts": [
     {
       "name": "AdjustBetPanel",
-      "url": "./layouts/AdjustBetPanel.json?v=1.0.8.1756212848814"
+      "url": "./layouts/AdjustBetPanel.json"
     },
     {
       "name": "AdjustBetPanelMobile",
-      "url": "./layouts/AdjustBetPanelMobile.json?v=1.0.8.1756212848814"
+      "url": "./layouts/AdjustBetPanelMobile.json"
     },
     {
       "name": "AutospinPanelDesktop",
-      "url": "./layouts/AutospinPanelDesktop.json?v=1.0.8.1756212848814"
+      "url": "./layouts/AutospinPanelDesktop.json"
     },
     {
       "name": "AutospinPanelMobile",
-      "url": "./layouts/AutospinPanelMobile.json?v=1.0.8.1756212848814"
+      "url": "./layouts/AutospinPanelMobile.json"
     },
     {
       "name": "intro-screen",
-      "url": "./layouts/intro-screen.json?v=1.0.8.1756212848814"
+      "url": "./layouts/intro-screen.json"
     },
     {
       "name": "main-screen",
-      "url": "./layouts/main-screen.json?v=1.0.8.1756212848814"
+      "url": "./layouts/main-screen.json"
     },
     {
       "name": "MenuSettingsPanel",
-      "url": "./layouts/MenuSettingsPanel.json?v=1.0.8.1756212848814"
+      "url": "./layouts/MenuSettingsPanel.json"
     },
     {
       "name": "MenuSettingsPanelMobile",
-      "url": "./layouts/MenuSettingsPanelMobile.json?v=1.0.8.1756212848814"
+      "url": "./layouts/MenuSettingsPanelMobile.json"
     },
     {
       "name": "PaytablePanelDesktop",
-      "url": "./layouts/PaytablePanelDesktop.json?v=1.0.8.1756212848814"
+      "url": "./layouts/PaytablePanelDesktop.json"
     },
     {
       "name": "PaytablePanelMobile",
-      "url": "./layouts/PaytablePanelMobile.json?v=1.0.8.1756212848814"
+      "url": "./layouts/PaytablePanelMobile.json"
     },
     {
       "name": "PopupFeatureBuy",
-      "url": "./layouts/PopupFeatureBuy.json?v=1.0.8.1756212848814"
+      "url": "./layouts/PopupFeatureBuy.json"
     },
     {
       "name": "PopupLostConnection",
-      "url": "./layouts/PopupLostConnection.json?v=1.0.8.1756212848814"
+      "url": "./layouts/PopupLostConnection.json"
     },
     {
       "name": "PopupNotEnoughBalance",
-      "url": "./layouts/PopupNotEnoughBalance.json?v=1.0.8.1756212848814"
+      "url": "./layouts/PopupNotEnoughBalance.json"
     },
     {
       "name": "TurboPopup",
-      "url": "./layouts/TurboPopup.json?v=1.0.8.1756212848814"
+      "url": "./layouts/TurboPopup.json"
     },
     {
       "name": "UIPanelDesktop",
-      "url": "./layouts/UIPanelDesktop.json?v=1.0.8.1756212848814"
+      "url": "./layouts/UIPanelDesktop.json"
     },
     {
       "name": "UIPanelMobileVertical",
-      "url": "./layouts/UIPanelMobileVertical.json?v=1.0.8.1756212848814"
+      "url": "./layouts/UIPanelMobileVertical.json"
     },
     {
       "name": "popups",
-      "url": "./layouts/popups.json?v=1.0.8.1756212848814"
+      "url": "./layouts/popups.json"
     }
   ],
   "textures": [
     {
       "name": "ui",
-      "url": "./images/ui.json?v=1.0.8.1756212848814"
+      "url": "./images/ui.json"
     },
     {
       "name": "textures",
-      "url": "./images/textures.json?v=1.0.8.1756212848814"
+      "url": "./images/textures.json"
     },
     {
       "name": "main-screen-background",
-      "url": "./images/main-game-screen.jpg?v=1.0.8.1756212848814"
+      "url": "./images/main-game-screen.jpg"
     },
     {
       "name": "freegame-screen-background",
-      "url": "./images/freegame-screen.jpg?v=1.0.8.1756212848814"
+      "url": "./images/freegame-screen.jpg"
     },
     {
       "name": "animations",
-      "url": "./images/animations-0.json?v=1.0.8.1756212848814"
+      "url": "./images/animations-0.json"
     }
   ],
   "spine": [
     {
       "name": "button-spin",
-      "url": "./spine/spin?v=1.0.8.1756212848814"
+      "url": "./spine/spin"
     },
     {
       "name": "hold_spinner_popup",
-      "url": "./spine/hold_spinner_popup?v=1.0.8.1756212848814"
+      "url": "./spine/hold_spinner_popup"
     },
     {
       "name": "extra_freespins_popup",
-      "url": "./spine/extra_freespins?v=1.0.8.1756212848814"
+      "url": "./spine/extra_freespins"
     },
     {
       "name": "congratulation_popup",
-      "url": "./spine/congratulation_popup?v=1.0.8.1756212848814"
+      "url": "./spine/congratulation_popup"
     },
     {
       "name": "freespins_popup",
-      "url": "./spine/freespin_popup?v=1.0.8.1756212848814"
+      "url": "./spine/freespin_popup"
     },
     {
       "name": "big_win",
-      "url": "./spine/big_win?v=1.0.8.1756212848814"
+      "url": "./spine/big_win"
     },
     {
       "name": "mega_win",
-      "url": "./spine/mega_win?v=1.0.8.1756212848814"
+      "url": "./spine/mega_win"
     },
     {
       "name": "super_win",
-      "url": "./spine/super_win?v=1.0.8.1756212848814"
+      "url": "./spine/super_win"
     },
     {
       "name": "grand_win",
-      "url": "./spine/grand_win?v=1.0.8.1756212848814"
+      "url": "./spine/grand_win"
     },
     {
       "name": "transition",
-      "url": "./spine/transition?v=1.0.8.1756212848814"
+      "url": "./spine/transition"
     },
     {
       "name": "character",
-      "url": "./spine/character?v=1.0.8.1756212848814"
+      "url": "./spine/character"
     },
     {
       "name": "logo",
-      "url": "./spine/logo?v=1.0.8.1756212848814"
+      "url": "./spine/logo"
     },
     {
       "name": "main-screen-background",
-      "url": "./spine/background?v=1.0.8.1756212848814"
+      "url": "./spine/background"
     },
     {
       "name": "symbol-00",
-      "url": "./spine/low_payout_1?v=1.0.8.1756212848814"
+      "url": "./spine/low_payout_1"
     },
     {
       "name": "symbol-01",
-      "url": "./spine/low_payout_2?v=1.0.8.1756212848814"
+      "url": "./spine/low_payout_2"
     },
     {
       "name": "symbol-02",
-      "url": "./spine/low_payout_3?v=1.0.8.1756212848814"
+      "url": "./spine/low_payout_3"
     },
     {
       "name": "symbol-03",
-      "url": "./spine/low_payout_4?v=1.0.8.1756212848814"
+      "url": "./spine/low_payout_4"
     },
     {
       "name": "symbol-04",
-      "url": "./spine/low_payout_5?v=1.0.8.1756212848814"
+      "url": "./spine/low_payout_5"
     },
     {
       "name": "symbol-05",
-      "url": "./spine/high_payout_1?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_1"
     },
     {
       "name": "symbol-06",
-      "url": "./spine/high_payout_2?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_2"
     },
     {
       "name": "symbol-07",
-      "url": "./spine/high_payout_3?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_3"
     },
     {
       "name": "symbol-08",
-      "url": "./spine/high_payout_4?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_4"
     },
     {
       "name": "symbol-wild",
-      "url": "./spine/wild?v=1.0.8.1756212848814"
+      "url": "./spine/wild"
     },
     {
       "name": "symbol-scatter",
-      "url": "./spine/scatter?v=1.0.8.1756212848814"
+      "url": "./spine/scatter"
     },
     {
       "name": "symbol-hold-spinner",
-      "url": "./spine/hold_spinner_fixed?v=1.0.8.1756212848814"
+      "url": "./spine/hold_spinner_fixed"
     },
     {
       "name": "symbol-hold-spinner-spin",
-      "url": "./spine/hold_spinner_dynamic?v=1.0.8.1756212848814"
+      "url": "./spine/hold_spinner_dynamic"
     },
     {
       "name": "hook",
-      "url": "./spine/hook?v=1.0.8.1756212848814"
+      "url": "./spine/hook"
     },
     {
       "name": "disappear",
-      "url": "./spine/disappear?v=1.0.8.1756212848814"
+      "url": "./spine/disappear"
     },
     {
       "name": "symbol-multiplier-0",
-      "url": "./spine/high_payout_5_yellow?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_5_yellow"
     },
     {
       "name": "symbol-multiplier-1",
-      "url": "./spine/high_payout_5_red?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_5_red"
     },
     {
       "name": "symbol-multiplier-2",
-      "url": "./spine/high_payout_5_green?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_5_green"
     },
     {
       "name": "symbol-multiplier-3",
-      "url": "./spine/high_payout_5_blue?v=1.0.8.1756212848814"
+      "url": "./spine/high_payout_5_blue"
     }
   ],
   "sounds": [
     {
       "name": "reel_anticipation",
-      "url": [
-        "./sounds/anticipation.mp3?v=1.0.8.1756212848814",
-        "./sounds/anticipation.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/anticipation.mp3", "./sounds/anticipation.ogg"]
     },
     {
       "name": "big_win",
-      "url": [
-        "./sounds/big_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/big_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/big_win.mp3", "./sounds/big_win.ogg"]
     },
     {
       "name": "super_win",
-      "url": [
-        "./sounds/super_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/super_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/super_win.mp3", "./sounds/super_win.ogg"]
     },
     {
       "name": "ultra_win",
-      "url": [
-        "./sounds/grand_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/grand_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/grand_win.mp3", "./sounds/grand_win.ogg"]
     },
     {
       "name": "mega_win",
-      "url": [
-        "./sounds/mega_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/mega_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/mega_win.mp3", "./sounds/mega_win.ogg"]
     },
     {
       "name": "basegame_loop",
-      "url": [
-        "./sounds/ambient_basegame.mp3?v=1.0.8.1756212848814",
-        "./sounds/ambient_basegame.ogg?v=1.0.8.1756212848814"
-      ],
+      "url": ["./sounds/ambient_basegame.mp3", "./sounds/ambient_basegame.ogg"],
       "channel": "ambient"
     },
     {
       "name": "freegame_loop",
-      "url": [
-        "./sounds/ambient_freegame.mp3?v=1.0.8.1756212848814",
-        "./sounds/ambient_freegame.ogg?v=1.0.8.1756212848814"
-      ],
+      "url": ["./sounds/ambient_freegame.mp3", "./sounds/ambient_freegame.ogg"],
       "channel": "ambient"
     },
     {
       "name": "symbol_lp1_win",
-      "url": [
-        "./sounds/symbol_lp1_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_lp1_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_lp1_win.mp3", "./sounds/symbol_lp1_win.ogg"]
     },
     {
       "name": "symbol_lp2_win",
-      "url": [
-        "./sounds/symbol_lp2_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_lp2_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_lp2_win.mp3", "./sounds/symbol_lp2_win.ogg"]
     },
     {
       "name": "symbol_lp3_win",
-      "url": [
-        "./sounds/symbol_lp3_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_lp3_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_lp3_win.mp3", "./sounds/symbol_lp3_win.ogg"]
     },
     {
       "name": "symbol_lp4_win",
-      "url": [
-        "./sounds/symbol_lp4_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_lp4_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_lp4_win.mp3", "./sounds/symbol_lp4_win.ogg"]
     },
     {
       "name": "symbol_lp5_win",
-      "url": [
-        "./sounds/symbol_lp5_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_lp5_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_lp5_win.mp3", "./sounds/symbol_lp5_win.ogg"]
     },
     {
       "name": "symbol_hp1_win",
-      "url": [
-        "./sounds/symbol_hp1_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_hp1_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_hp1_win.mp3", "./sounds/symbol_hp1_win.ogg"]
     },
     {
       "name": "symbol_hp2_win",
-      "url": [
-        "./sounds/symbol_hp2_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_hp2_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_hp2_win.mp3", "./sounds/symbol_hp2_win.ogg"]
     },
     {
       "name": "symbol_hp3_win",
-      "url": [
-        "./sounds/symbol_hp3_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_hp3_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_hp3_win.mp3", "./sounds/symbol_hp3_win.ogg"]
     },
     {
       "name": "symbol_hp4_win",
-      "url": [
-        "./sounds/symbol_hp4_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_hp4_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_hp4_win.mp3", "./sounds/symbol_hp4_win.ogg"]
     },
     {
       "name": "symbol_scatter_win",
       "url": [
-        "./sounds/symbol_scatter_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_scatter_win.ogg?v=1.0.8.1756212848814"
+        "./sounds/symbol_scatter_win.mp3",
+        "./sounds/symbol_scatter_win.ogg"
       ]
     },
     {
       "name": "symbol_wild_win",
-      "url": [
-        "./sounds/symbol_wild_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_wild_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_wild_win.mp3", "./sounds/symbol_wild_win.ogg"]
     },
     {
       "name": "button_spin_start",
       "url": [
-        "./sounds/button_spin_start.mp3?v=1.0.8.1756212848814",
-        "./sounds/button_spin_start.ogg?v=1.0.8.1756212848814"
+        "./sounds/button_spin_start.mp3",
+        "./sounds/button_spin_start.ogg"
       ]
     },
     {
       "name": "button_spin_stop",
-      "url": [
-        "./sounds/button_spin_stop.mp3?v=1.0.8.1756212848814",
-        "./sounds/button_spin_stop.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/button_spin_stop.mp3", "./sounds/button_spin_stop.ogg"]
     },
     {
       "name": "reel_spin",
-      "url": [
-        "./sounds/reel_spin.mp3?v=1.0.8.1756212848814",
-        "./sounds/reel_spin.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/reel_spin.mp3", "./sounds/reel_spin.ogg"]
     },
     {
       "name": "reel_stop",
-      "url": [
-        "./sounds/reel_stop.mp3?v=1.0.8.1756212848814",
-        "./sounds/reel_stop.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/reel_stop.mp3", "./sounds/reel_stop.ogg"]
     },
     {
       "name": "error_appearance",
-      "url": [
-        "./sounds/error_appearance.mp3?v=1.0.8.1756212848814",
-        "./sounds/error_appearance.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/error_appearance.mp3", "./sounds/error_appearance.ogg"]
     },
     {
       "name": "total_win_appearance",
       "url": [
-        "./sounds/total_win_appearance.mp3?v=1.0.8.1756212848814",
-        "./sounds/total_win_appearance.ogg?v=1.0.8.1756212848814"
+        "./sounds/total_win_appearance.mp3",
+        "./sounds/total_win_appearance.ogg"
       ]
     },
     {
       "name": "common_popup_window",
       "url": [
-        "./sounds/common_popup_window.mp3?v=1.0.8.1756212848814",
-        "./sounds/common_popup_window.ogg?v=1.0.8.1756212848814"
+        "./sounds/common_popup_window.mp3",
+        "./sounds/common_popup_window.ogg"
       ]
     },
     {
       "name": "button_click",
-      "url": [
-        "./sounds/button_click.mp3?v=1.0.8.1756212848814",
-        "./sounds/button_click.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/button_click.mp3", "./sounds/button_click.ogg"]
     },
     {
       "name": "counter_loop",
-      "url": [
-        "./sounds/counter_loop.mp3?v=1.0.8.1756212848814",
-        "./sounds/counter_loop.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/counter_loop.mp3", "./sounds/counter_loop.ogg"]
     },
     {
       "name": "counter_end",
-      "url": [
-        "./sounds/counter_end.mp3?v=1.0.8.1756212848814",
-        "./sounds/counter_end.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/counter_end.mp3", "./sounds/counter_end.ogg"]
     },
     {
       "name": "symbol_scatter_land",
       "url": [
-        "./sounds/symbol_scatter_land.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_scatter_land.ogg?v=1.0.8.1756212848814"
+        "./sounds/symbol_scatter_land.mp3",
+        "./sounds/symbol_scatter_land.ogg"
       ]
     },
     {
       "name": "symbol_wild_land",
-      "url": [
-        "./sounds/symbol_wild_land.mp3?v=1.0.8.1756212848814",
-        "./sounds/symbol_wild_land.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/symbol_wild_land.mp3", "./sounds/symbol_wild_land.ogg"]
     },
     {
       "name": "popup_hide",
-      "url": [
-        "./sounds/popup_hide.mp3?v=1.0.8.1756212848814",
-        "./sounds/popup_hide.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/popup_hide.mp3", "./sounds/popup_hide.ogg"]
     },
     {
       "name": "transition",
-      "url": [
-        "./sounds/transition.mp3?v=1.0.8.1756212848814",
-        "./sounds/transition.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/transition.mp3", "./sounds/transition.ogg"]
     },
     {
       "name": "freespin_award",
-      "url": [
-        "./sounds/freespin_award.mp3?v=1.0.8.1756212848814",
-        "./sounds/freespin_award.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/freespin_award.mp3", "./sounds/freespin_award.ogg"]
     },
     {
       "name": "freespin_win",
-      "url": [
-        "./sounds/freespin_win.mp3?v=1.0.8.1756212848814",
-        "./sounds/freespin_win.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/freespin_win.mp3", "./sounds/freespin_win.ogg"]
     },
     {
       "name": "multiplier",
-      "url": [
-        "./sounds/multiplier.mp3?v=1.0.8.1756212848814",
-        "./sounds/multiplier.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/multiplier.mp3", "./sounds/multiplier.ogg"]
     },
     {
       "name": "show_popup",
-      "url": [
-        "./sounds/show_popup.mp3?v=1.0.8.1756212848814",
-        "./sounds/show_popup.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/show_popup.mp3", "./sounds/show_popup.ogg"]
     },
     {
       "name": "win_frame",
-      "url": [
-        "./sounds/win_frame.mp3?v=1.0.8.1756212848814",
-        "./sounds/win_frame.ogg?v=1.0.8.1756212848814"
-      ]
+      "url": ["./sounds/win_frame.mp3", "./sounds/win_frame.ogg"]
     }
   ],
   "fonts": [
     {
       "name": "LuckiestGuy",
-      "url": "./fonts/LuckiestGuy-Regular.woff?v=1.0.8.1756212848814"
-    },
-    {
+      "url": "./fonts/LuckiestGuy-Regular.woff"
+    }, 
+     {
       "name": "Alexandria",
-      "url": "./fonts/Alexandria.xml?v=1.0.8.1756212848814",
+      "url": "./fonts/Alexandria.xml",
       "type": "bitmap"
     }
   ]
