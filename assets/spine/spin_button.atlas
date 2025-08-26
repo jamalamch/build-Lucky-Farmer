@@ -1,0 +1,59 @@
+spin_button.webp
+size:740,740
+filter:Linear,Linear
+scale:0.4
+Arrow down
+bounds:2,2,158,206
+Arrow up
+bounds:171,222,157,202
+Base
+bounds:2,426,308,310
+E
+bounds:644,553,64,51
+Stop icon
+bounds:480,449,155,162
+rotate:90
+base light
+bounds:432,484,40,40
+circle/Energy light1
+bounds:162,16,100,100
+circle/Energy light10
+bounds:275,120,100,100
+circle/Energy light11
+bounds:264,16,100,100
+circle/Energy light12
+bounds:366,18,100,100
+circle/Energy light13
+bounds:330,424,100,100
+circle/Energy light14
+bounds:330,322,100,100
+circle/Energy light15
+bounds:432,347,100,100
+circle/Energy light16
+bounds:534,347,100,100
+circle/Energy light17
+bounds:432,245,100,100
+circle/Energy light2
+bounds:534,245,100,100
+circle/Energy light3
+bounds:377,143,100,100
+circle/Energy light4
+bounds:479,143,100,100
+circle/Energy light5
+bounds:468,41,100,100
+circle/Energy light6
+bounds:581,143,100,100
+circle/Energy light7
+bounds:570,41,100,100
+circle/Energy light8
+bounds:636,347,100,100
+circle/Energy light9
+bounds:636,245,100,100
+fog
+bounds:171,118,102,102
+infinity_icon
+bounds:480,606,238,130
+shadaw L
+bounds:312,526,166,210
+shadaw R
+bounds:2,210,167,214

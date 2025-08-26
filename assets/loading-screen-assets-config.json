@@ -1,0 +1,22 @@
+{
+  "layouts": [],
+  "textures": [
+    {
+      "name": "loading-screen",
+      "url": "./images/loading-screen-background.webp?v=1.0.8.1756212848814"
+    },
+    {
+      "name": "loading",
+      "url": "./images/loading.json?v=1.0.8.1756212848814"
+    }
+  ],
+  "spine": [],
+  "sounds": [],
+  "fonts": [
+    {
+      "name": "Alexandria-Bold",
+      "url": "./fonts/AlexandriaBold.xml?v=1.0.8.1756212848814",
+      "type": "bitmap"
+    }
+  ]
+}

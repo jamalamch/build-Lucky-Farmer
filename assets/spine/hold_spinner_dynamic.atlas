@@ -1,0 +1,68 @@
+hold_spinner_dynamic.webp
+	size: 1348, 554
+	filter: Linear, Linear
+BG
+	bounds: 607, 3, 168, 161
+	offsets: 1, 1, 170, 163
+	rotate: 90
+Frame Wood
+	bounds: 1056, 363, 189, 191
+	offsets: 1, 1, 191, 193
+	rotate: 90
+Layer 1
+	bounds: 1249, 276, 184, 85
+	offsets: 2, 2, 188, 144
+	rotate: 90
+Layer 2
+	bounds: 986, 177, 184, 137
+	offsets: 5, 7, 190, 151
+	rotate: 90
+banner_rays
+	bounds: 2, 3, 603, 549
+	offsets: 161, 25, 939, 582
+blinky_01
+	bounds: 1090, 148, 28, 27
+	offsets: 47, 50, 119, 124
+blinky_02
+	bounds: 986, 435, 57, 56
+	offsets: 34, 36, 119, 124
+blinky_03
+	bounds: 1249, 462, 90, 97
+	offsets: 14, 14, 119, 124
+	rotate: 90
+blinky_04
+	bounds: 1167, 3, 111, 113
+	offsets: 6, 7, 119, 124
+blinky_05
+	bounds: 1125, 118, 119, 123
+	offsets: 0, 0, 119, 124
+blinky_06
+	bounds: 1056, 2, 114, 109
+	offsets: 5, 9, 119, 124
+	rotate: 90
+blinky_07
+	bounds: 1247, 195, 81, 79
+	offsets: 23, 24, 119, 124
+blinky_08
+	bounds: 986, 493, 64, 59
+	offsets: 30, 34, 119, 124
+blinky_09
+	bounds: 1056, 141, 32, 34
+	offsets: 45, 48, 119, 124
+glow_frame_00
+	bounds: 770, 10, 139, 161
+	offsets: 29, 19, 191, 193
+particles
+	bounds: 607, 173, 379, 377
+	offsets: 215, 204, 800, 795
+	rotate: 90
+placeholder
+	bounds: 770, 7, 1, 1
+stack_01
+	bounds: 911, 26, 145, 143
+	offsets: 0, 1, 145, 144
+	rotate: 90
+stack_02
+	bounds: 1125, 243, 118, 120
+	offsets: 0, 1, 119, 121
+	rotate: 90

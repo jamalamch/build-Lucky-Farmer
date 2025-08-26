@@ -1,0 +1,29 @@
+seal.webp
+	size: 650, 257
+	filter: Linear, Linear
+	scale: 0.5
+200
+	bounds: 195, 11, 177, 72
+banner_rays
+	bounds: 511, 111, 144, 137
+	offsets: 50, 6, 236, 148
+	rotate: 90
+bg
+	bounds: 193, 85, 169, 170
+fire_ember_particle
+	bounds: 374, 10, 96, 81
+	offsets: 4, 0, 100, 100
+	rotate: 90
+frame
+	bounds: 2, 63, 189, 192
+hold spinner
+	bounds: 2, 6, 191, 55
+lt_ear
+	bounds: 364, 108, 147, 145
+	rotate: 90
+placeholder
+	bounds: 2, 3, 1, 1
+snow
+	bounds: 511, 2, 107, 106
+	offsets: 0, 6, 107, 112
+	rotate: 90

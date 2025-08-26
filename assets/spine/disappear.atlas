@@ -1,0 +1,96 @@
+disappear.webp
+	size: 1968, 1364
+	filter: Linear, Linear
+disappear_00
+	bounds: 417, 1055, 1, 1
+disappear_01
+	bounds: 1735, 600, 224, 215
+	offsets: 103, 56, 435, 330
+disappear_02
+	bounds: 1710, 19, 239, 227
+	offsets: 96, 50, 435, 330
+	rotate: 90
+disappear_03
+	bounds: 1654, 260, 253, 237
+	offsets: 90, 46, 435, 330
+	rotate: 90
+disappear_04
+	bounds: 1447, 18, 261, 240
+	offsets: 86, 46, 435, 330
+disappear_05
+	bounds: 1388, 272, 264, 241
+	offsets: 84, 46, 435, 330
+disappear_06
+	bounds: 917, 41, 264, 239
+	offsets: 85, 48, 435, 330
+disappear_07
+	bounds: 1183, 35, 262, 235
+	offsets: 87, 50, 435, 330
+disappear_08
+	bounds: 395, 2, 260, 229
+	offsets: 91, 53, 435, 330
+disappear_09
+	bounds: 657, 2, 258, 229
+	offsets: 95, 53, 435, 330
+disappear_10
+	bounds: 1735, 817, 268, 231
+	offsets: 86, 52, 435, 330
+	rotate: 90
+disappear_11
+	bounds: 1494, 787, 291, 239
+	offsets: 70, 47, 435, 330
+	rotate: 90
+disappear_12
+	bounds: 1091, 282, 295, 259
+	offsets: 63, 29, 435, 330
+disappear_13
+	bounds: 1114, 543, 301, 258
+	offsets: 58, 30, 435, 330
+disappear_14
+	bounds: 801, 559, 311, 254
+	offsets: 51, 35, 435, 330
+disappear_15
+	bounds: 1178, 803, 314, 275
+	offsets: 50, 15, 435, 330
+disappear_16
+	bounds: 831, 815, 345, 272
+	offsets: 36, 23, 435, 330
+disappear_17
+	bounds: 407, 233, 361, 275
+	offsets: 35, 23, 435, 330
+disappear_18
+	bounds: 417, 510, 369, 281
+	offsets: 34, 18, 435, 330
+disappear_19
+	bounds: 421, 793, 378, 279
+	offsets: 38, 18, 435, 330
+disappear_20
+	bounds: 2, 467, 403, 291
+	offsets: 24, 15, 435, 330
+disappear_21
+	bounds: 2, 1058, 417, 304
+	offsets: 18, 12, 435, 330
+disappear_22
+	bounds: 421, 1074, 408, 288
+	offsets: 4, 22, 435, 330
+disappear_23
+	bounds: 2, 760, 413, 296
+	offsets: 2, 21, 435, 330
+disappear_24
+	bounds: 2, 165, 391, 300
+	offsets: 18, 15, 435, 330
+disappear_25
+	bounds: 831, 1089, 410, 273
+	offsets: 17, 25, 435, 330
+disappear_26
+	bounds: 1243, 1080, 381, 282
+	offsets: 32, 25, 435, 330
+disappear_27
+	bounds: 1626, 1087, 330, 275
+	offsets: 51, 23, 435, 330
+disappear_28
+	bounds: 1417, 515, 301, 270
+	offsets: 81, 23, 435, 330
+disappear_29
+	bounds: 788, 305, 301, 252
+	offsets: 80, 28, 435, 330

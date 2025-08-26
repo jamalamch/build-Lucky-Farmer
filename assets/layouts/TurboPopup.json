@@ -1,0 +1,131 @@
+{
+  "layout": {
+    "children": [
+      {
+        "cls": "starling.display.Image",
+        "constructorParams": [
+          {
+            "cls": "starling.textures.Texture",
+            "textureName": "paytable_desktop_bcg"
+          }
+        ],
+        "customParams": {},
+        "params": {
+          "name": "backgorund",
+          "scale9Grid": {
+            "cls": "flash.geom.Rectangle",
+            "customParams": {},
+            "params": {
+              "height": 22,
+              "width": 22,
+              "x": 16,
+              "y": 16
+            }
+          },
+          "scaleX": 7.85,
+          "scaleY": 1.35
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "btn-turbo"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "turbo"
+            }
+          },
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "btn-turbo-off"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "normal"
+            }
+          },
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "btn-super-turbo"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "superTurbo"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "icon",
+          "pivotX": 27,
+          "pivotY": 27,
+          "x": 50,
+          "y": 36.5
+        }
+      },
+      {
+        "cls": "starling.text.TextField",
+        "constructorParams": [
+          {
+            "value": 200
+          },
+          {
+            "value": 100
+          },
+          {
+            "value": ""
+          }
+        ],
+        "customParams": {},
+        "params": {
+          "format": {
+            "cls": "starling.text.TextFormat",
+            "customParams": {},
+            "params": {
+              "bold": true,
+              "color": 16777215,
+              "font": "LuckiestGuy",
+              "size": 30
+            }
+          },
+          "height": 73,
+          "name": "title",
+          "pivotY": 36.5,
+          "text": "Abc123",
+          "width": 200,
+          "x": 100,
+          "y": 36.5
+        },
+        "tweenData": {
+          "translation-key": "turboPopup.title"
+        }
+      }
+    ],
+    "cls": "starling.display.Sprite",
+    "customParams": {
+      "customComponentClass": "TurboPopup"
+    },
+    "params": {
+      "name": "TurboPopup",
+      "pivotX": 211.95,
+      "pivotY": 36.5,
+      "x": 960,
+      "y": 900
+    }
+  }
+}

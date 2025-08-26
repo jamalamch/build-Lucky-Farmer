@@ -1,0 +1,173 @@
+loader.webp
+	size: 1008, 1008
+	filter: Nearest, Linear
+	pma: true
+E/E_00000
+	bounds: 66, 2, 8, 9
+	offsets: 93, 89, 188, 176
+	rotate: 90
+E/E_00001
+	bounds: 637, 80, 19, 19
+	offsets: 88, 84, 188, 176
+E/E_00002
+	bounds: 979, 520, 27, 27
+	offsets: 84, 80, 188, 176
+E/E_00003
+	bounds: 484, 39, 39, 40
+	offsets: 77, 73, 188, 176
+E/E_00004
+	bounds: 66, 12, 51, 51
+	offsets: 71, 68, 188, 176
+E/E_00005
+	bounds: 2, 2, 62, 61
+	offsets: 66, 63, 188, 176
+E/E_00006
+	bounds: 910, 480, 67, 67
+	offsets: 64, 61, 188, 176
+E/E_00007
+	bounds: 910, 549, 83, 86
+	offsets: 57, 50, 188, 176
+E/E_00008
+	bounds: 545, 2, 97, 90
+	offsets: 49, 48, 188, 176
+	rotate: 90
+E/E_00009
+	bounds: 668, 4, 109, 104
+	offsets: 43, 40, 188, 176
+E/E_00010
+	bounds: 668, 110, 112, 123
+	offsets: 41, 31, 188, 176
+E/E_00011
+	bounds: 281, 82, 132, 141
+	offsets: 29, 23, 188, 176
+E/E_00012
+	bounds: 142, 82, 137, 141
+	offsets: 26, 23, 188, 176
+E/E_00013
+	bounds: 863, 881, 133, 125
+	offsets: 29, 29, 188, 176
+E/E_00014
+	bounds: 723, 875, 131, 138
+	offsets: 30, 22, 188, 176
+	rotate: 90
+E/E_00015
+	bounds: 520, 234, 134, 151
+	offsets: 29, 15, 188, 176
+E/E_00016
+	bounds: 2, 65, 138, 158
+	offsets: 27, 12, 188, 176
+E/E_00017
+	bounds: 415, 81, 128, 142
+	offsets: 32, 22, 188, 176
+E/E_00018
+	bounds: 545, 101, 121, 131
+	offsets: 36, 29, 188, 176
+E/E_00019
+	bounds: 658, 487, 124, 127
+	offsets: 36, 31, 188, 176
+E/E_00020
+	bounds: 723, 746, 127, 130
+	offsets: 35, 29, 188, 176
+	rotate: 90
+E/E_00021
+	bounds: 658, 616, 126, 128
+	offsets: 35, 30, 188, 176
+E/E_00022
+	bounds: 658, 361, 124, 124
+	offsets: 35, 32, 188, 176
+E/E_00023
+	bounds: 656, 235, 124, 124
+	offsets: 35, 32, 188, 176
+E/E_00024
+	bounds: 786, 622, 122, 120
+	offsets: 36, 35, 188, 176
+	rotate: 90
+E/E_00025
+	bounds: 855, 751, 122, 120
+	offsets: 36, 35, 188, 176
+	rotate: 90
+E/E_00026
+	bounds: 786, 500, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00027
+	bounds: 784, 378, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00028
+	bounds: 784, 256, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00029
+	bounds: 782, 134, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00030
+	bounds: 782, 134, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00031
+	bounds: 782, 134, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00032
+	bounds: 782, 134, 122, 120
+	offsets: 36, 35, 188, 176
+E/E_00033
+	bounds: 782, 12, 122, 120
+	offsets: 36, 35, 188, 176
+Shine
+	bounds: 658, 756, 20, 39
+	offsets: 1, 1, 22, 40
+	rotate: 90
+exa_gaming/exa_gaming_00000
+	bounds: 658, 778, 125, 63
+	offsets: 0, 16, 755, 129
+	rotate: 90
+exa_gaming/exa_gaming_00001
+	bounds: 908, 637, 112, 62
+	offsets: 13, 17, 755, 129
+	rotate: 90
+exa_gaming/exa_gaming_00002
+	bounds: 142, 18, 112, 62
+	offsets: 13, 17, 755, 129
+exa_gaming/exa_gaming_00003
+	bounds: 256, 18, 112, 62
+	offsets: 13, 17, 755, 129
+exa_gaming/exa_gaming_00004
+	bounds: 370, 17, 112, 62
+	offsets: 13, 17, 755, 129
+exa_gaming/exa_gaming_00005
+	bounds: 370, 17, 112, 62
+	offsets: 13, 17, 755, 129
+exa_gaming/exa_gaming_00006
+	bounds: 2, 905, 719, 101
+	offsets: 13, 0, 755, 129
+exa_gaming/exa_gaming_00007
+	bounds: 2, 803, 516, 100
+	offsets: 13, 0, 755, 129
+exa_gaming/exa_gaming_00008
+	bounds: 2, 703, 516, 98
+	offsets: 13, 0, 755, 129
+exa_gaming/exa_gaming_00009
+	bounds: 2, 607, 516, 94
+	offsets: 13, 1, 755, 129
+exa_gaming/exa_gaming_00010
+	bounds: 2, 518, 516, 87
+	offsets: 13, 4, 755, 129
+exa_gaming/exa_gaming_00011
+	bounds: 2, 435, 516, 81
+	offsets: 13, 8, 755, 129
+exa_gaming/exa_gaming_00012
+	bounds: 2, 357, 516, 76
+	offsets: 13, 10, 755, 129
+exa_gaming/exa_gaming_00013
+	bounds: 520, 387, 516, 71
+	offsets: 13, 12, 755, 129
+	rotate: 90
+exa_gaming/exa_gaming_00014
+	bounds: 2, 290, 516, 65
+	offsets: 13, 16, 755, 129
+exa_gaming/exa_gaming_00015
+	bounds: 593, 387, 516, 63
+	offsets: 13, 16, 755, 129
+	rotate: 90
+exa_gaming/exa_gaming_00016
+	bounds: 2, 225, 516, 63
+	offsets: 13, 16, 755, 129
+square
+	bounds: 908, 414, 65, 64

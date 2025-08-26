@@ -1,0 +1,346 @@
+{
+  "introTextDesktop": "WIN UP TO 5,000x STAKE",
+"introTextMobile": "CLICK BUTTON FOR START\nFIND HOLD&SPINNER AND WIN!",
+"tfTotalWin":"TOTAL WIN",
+  "paytable": {
+    "#COMMENT": " ORDER OF THE PAGES IS NOT THE SAME AS IN THE GAME BECAUSE LACK OF TIME AND TO MANY DESCRIPTION CHANGES ( SEARCH BY TITLES ) ",
+    "page1": {
+      "title": "GAME RULES",
+      "tf0": "Symbols pay anywhere on the screen. \nThe total number of the same symbol on the screen\nat the end of a spin determines the value of the win.",
+      "item2": "This is the WILD symbol.\nIt appears on all reels during\nthe FREE SPINS round.\nSubstitutes for all symbols\nexcept for SCATTER\nand MONEY symbols.",
+      "item3": "This is the SCATTER symbol.\nIt can appear on all reels."
+    },
+    "page2": {
+      "tf0": "MAX WIN",
+      "tf1": "The maximum win amount is limited to 10,000x.\nIf the total win of a FREE SPINS round reaches 10,000x\nthe round immediately ends, win is awarded\nand all remaining free spins are forfeited",
+      "tf2": "ANTE BET",
+      "tf3": "The player has the option to select the bet multiplier.\nDepending on the scaled bet, the game behaves\ndifferently. The possible values are:\nBet multiplier x15 - the chance to win the repsin round\nnaturally is higher. More SCATTER symbols are\n presented on the reels. The BUY FREE SPINS feature\nis disabled.\nBet multiplier 10x - Normal play.",
+      "tf4": "BUY FREE SPINS",
+      "tf5": "The FREE SPINS round and the HOLD & SPINNER\ncan be instantly triggered from the base\ngame by buying them individually for 100x current total bet.\nWhen buying the FREE SPINS round, on the triggering spin\n3, 4 or 5 SCATTERS can hit randomly.\nWhen buying the HOLD & SPINNER round, on the\ntriggering spin 3,4 or 5 MONEY symbols\nwith random value can hit randomly."
+    },
+    "page3": {
+      "title": "FREE SPINS",
+      "tf0": "Hit 3, 4 or 5 SCATTER symbols to trigger the FREE SPINS\nfeature starting with 10, 15 or 20 free spins respectively.",
+      "tf1": "During the FREE SPINS feature each WILD symbols\nalso collects all the values from FISH MONEY symbols\non the screen.",
+      "tf2": "All the WILD symbols that hit during the feature\nare collected until the end of the round.",
+      "tf3": "Every 4th WILD symbol collected, retriggers the feature,\nawards 10 more free spins and the multiplier\nfor MONEY symbol collection increases to 2x for \nthe first retigger, 3x for the second retigger and\n10x for the third retigger.",
+      "tf4": "The retriggered spins are played after the previous\nbatch of free spins ends. The multiplier applies to\nthe retriggered spins.",
+      "tf5": "After the third retrigger,\nthe feature cannot be retriggered anymore.",
+      "tf6": "Randomly, when there are one or more WILD symbols on\nthe screen, at the end of a free spin,\nFISH MONEY symbols can appear in random positions on\nthe screen replacing current symbols\nfrom that positions.",
+      "tf7": "Special reels are in play during the feature"
+    },
+    "page4": {
+      "#COMMENT": "<DYN_1> and <DYN_2> are supposed to be swapped dynamically",
+      "title": "GAME RULES",
+      "tf0": "High volatility games pay out less often on average\nbut the chance to hit big wins in a short time span is higher.",
+      "tf1": "All symbols pay from left to right on selected paylines\nAll wins are multiplied by bet per line.",
+      "tf2": "All values are expressed as actual wins in coins.",
+      "tf3": "Only the highest win is paid per line. When winning\non multiple paylines, all wins are added to the total win.",
+      "tf4": "Free spins is awarded to the player after\nthe round completes. The total win from past Freespins\nincludes the total win of the series.",
+      "tf5": "The theoretical RTP of this game is 96.07%.\nThe RTP of the game when using\nthe \"ANTE BET\" is 96.09%\nThe RTP of the game when using\n\"BUY FREE SPINS\" is 96.07%\nThe RTP of the game when using\n\"BUY HOLD & SPINNER\" is 96.07%",
+      "tf6": "MINIMUM BET: <DYN_1>\nMAXIMUM BET: <DYN_2>",
+      "tf7": "Malfunction voids all pays and plays."
+    },
+    "page5": {
+      "title": "HOW TO PLAY",
+      "tf0": "Click the",
+      "textCombined1": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "or",
+        "icon2": "btn-bet-up-normal",
+        "part2": "buttons to change the bet value\nand open the bet menu."
+      },
+      "tf1": "Select the bet you want to use in the game.",
+      "tf2": "MAIN GAME INTERFACE",
+      "textCombined2": {
+        "icon1": "btn-settings",
+        "part1": " Opens the SETTINGS menu contains settings"
+      },
+      "tf3": "which affect the way the game is being played.",
+      "textCombined3": {
+        "icon1": "info_btn",
+        "part1": "Opens the Information page."
+      },
+      "tf4": "The CREDIT and BET labels display\nthe current balance and the total bet. \nClick on the labels to switch between token\nview and cash view.",
+      "textCombined4": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "or",
+        "icon2": "btn-bet-up-normal",
+        "part2": "You can use the buttons to increase "
+      },
+      "tf5": "or decrease the current bet and make bet adjustments and\nopen the betting menu where you can make\nchanges to your bets.",
+      "tf6": "You can use the buttons to move\nthe current bet up or down and open the betting menu \nwhere you can change bet allocations.",
+      "tf7": "",
+      "textCombined5": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "Starts the game"
+      }
+    },
+    "page6": {
+      "title": "SETTINGS MENU",
+      "tf0": "INTRO SCREEN - toggles the introductory screen\non and off\nAMBIENCE - toggles the ambient sound and music in\nthe game on and off\nSOUND EFFECTS - Turns the game's sound effects\non and off\nGAME HISTORY - Opens the game history page",
+      "tf1": "INFORMATION SCREEN",
+      "textCombined1": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "and",
+        "icon2": "btn-bet-up-normal",
+        "part2": "scroll between information pages."
+      },
+      "tf2": "BET MENU",
+      "tf3": "The bet menu shows the bet multiplier available\nin the game, and the current\ntotal bet in both coins and cash.",
+      "tf4": "COIN VALUE fields to change the values.",
+      "textCombined2": {
+        "part1": "Use the",
+        "icon1": "btn-bet-down-normal",
+        "part2": "and",
+        "icon2": "btn-bet-up-normal",
+        "part3": "buttons in the BET and\n"
+      },
+      "tf5": "The maximum win amount\nis limited to 5000 times the bet.",
+      "tf6": "A round yields up to 4 DP,\nand all remaining features are lost."
+    },
+    "page7": {
+      "title": "HOLD & SPINNER",
+      "tf0": "These are the MONEY symbols.\nAt every spin MONEY symbols take a random value\nfrom a predefined set. Possible values are:\n1x, 2x, 3x, 4x, 5x, 6x, 7x, 8x, 9x, 10x, 11x, 12x, 14x, 16x, 18x,\n20x, 22x, 25x, 30x, 50x, 100x, 200x, 300x, 500x, 1000x\nor 2000x total bet.",
+      "tf1": "Whenever 3x MONEY symbols they trigger\nthe HOLD & SPINNER BONUS.When the feature starts\nall MONEY symbols remain in place and all other symbols\nfade away. The value of all MONEY symbols on the screen\nare added to the total win of the round.\nThe round stars with 4 respins. ALL MONEY symbols\nthat hit after each respin reset the number of respins\nback to 4 and the value of each MONEY symbol on\nthe screen is added to the total win of the round.\nThe round ends when there are no more respins left.\nWhen the feature is complete the total value collected\nso far is awarded. Special reels are in play during\nthe respin round.",
+      "tf2": "The fish paying symbols are also FISH MONEY symbols.\nAt every spin, this fish\ntake a random money value\nwhich can be won during the FREE SPINS feature.\nPossible value are: 2x, 5x, 10x, 15x, 25x, 50x, 100x,\n200x, 500x, 1000x, 3333x, 5000x, or 10000x total bet."
+    },
+    "page8": {
+      "title": "AUTOPLAY",
+      "tf0": "Click on the buttons showing the number\nof possible auto-spins to start Autoplay",
+      "tf1": "SKIP SCREENS options auto-skips the feature\nintroduction and end screens after a short period of time"
+    }
+  },
+  "paytableDesktop":{
+    "page1": {
+      "title": "GAME RULES",
+      "tf0": "Symbols pay anywhere on the screen. \nThe total number of the same symbol on the screen at the end of a spin determines the value of the win.",
+      "item2": "This is the WILD symbol.\nIt appears on all reels during\nthe FREE SPINS round\nSubstitutes for all symbols\nexcept for SCATTER and MONEY symbols.",
+      "item3": "This is the SCATTER symbol.\nIt can appear on all reels."
+   },
+    "page2": {
+      "tf0": "MAX WIN",
+      "tf1": "The maximum win amount is limited to 10,000x. If the total win of a FREE SPINS\nround reaches 10,000x the round immediately ends, win is awarded and all remaining free spins are forfeited",
+      "tf2": "ANTE BET",
+      "tf3": "The player has the option to select the bet multiplier. Depending on the scaled bet, the game behaves differently.\nThe possible values are:\nBet multiplier x15 - the chance to win the repsin round naturally is higher. More SCATTER symbols are\n presented on the reels. The BUY FREE SPINS feature is disabled.\n Bet multiplier 10x - Normal play.",
+      "tf4": "BUY FREE SPINS",
+      "tf5": "The FREE SPINS round and the HOLD & SPINNER can be instantly triggered from the base\ngame by buying them individually for 100x current total bet.\nWhen buying the FREE SPINS round, on the triggering spin 3, 4 or 5 SCATTERS can hit randomly.\nWhen buying the HOLD & SPINNER round, on  the triggering spin 3,4 or 5 MONEY symbols\nwith random value can hit randomly."
+    },
+    "page3": {
+      "title": "FREE SPINS",
+      "tf0": "Hit 3, 4 or 5 SCATTER symbols to trigger the FREE SPINS feature starting with 10, 15 or 20 free spins respectively.",
+      "tf1": "During the FREE SPINS feature each WILD symbols also collects all the values\n from FISH MONEY symbols on the screen.",
+      "tf2": "All the WILD symbols that hit during the feature are collected until the end of the round.",
+      "tf3": "Every 4th WILD symbol collected, retriggers the feature, awards 10 more free spins and the multiplier\n for MONEY symbol collection increases to 2x for the first retigger, 3x for the second retigger and\n10x for the third retigger.",
+      "tf4": "The retriggered spins are played after the previous batch of free spins ends.\nThe multiplier applies to the retriggered spins.",
+      "tf5": "After the third retrigger, the feature cannot be retriggered anymore.",
+      "tf6": "Randomly, when there are one or more WILD symbols on the screen, at the end of a free\nspin, FISH MONEY symbols can appear in random positions on the screen replacing current\nsymbols from that positions.",
+      "tf7": "Special reels are in play during the feature"
+    },
+    "page4": {
+      "#COMMENT": "<DYN_1> and <DYN_2> are supposed to be swapped dynamically",
+      "title": "GAME RULES",
+      "tf0": "High volatility games pay out less often on average but the chance to hit big wins in a short time span is higher.",
+      "tf1": "All symbols pay from left to right on selected paylines\nAll wins are multiplied by bet per line.",
+      "tf2": "All values are expressed as actual wins in coins.",
+      "tf3": "Only the highest win is paid per line.\nWhen winning on multiple paylines, all wins are added to the total win.",
+      "tf4": "Free spins is awarded to the player after the round completes.\nThe total win from past Freespins includes the total win of the series.",
+      "tf5": "The theoretical RTP of this game is 96.07%.\nThe RTP of the game when using the \"ANTE BET\" is 96.09%\nThe RTP of the game when using \"BUY FREE SPINS\" is 96.07%\nThe RTP of the game when using \"BUY HOLD & SPINNER\" is 96.07%",
+      "tf6": "MINIMUM BET: <DYN_1> \nMAXIMUM BET: <DYN_2>",
+      "tf7": "Malfunction voids all pays and plays."
+    },
+    "page5":{
+      "title": "HOW TO PLAY",
+      "textCombined1": {
+        "part1": "Click the",
+        "icon1":"btn-bet-down-normal",
+        "part2": "or",
+        "icon2": "btn-bet-up-normal",
+        "part3": "buttons to change the bet value and open the bet menu."
+      },
+      "tf0": "Select the bet you want to use in the game.",
+      "tf1": "MAIN GAME INTERFACE",
+      "textCombined2": {
+        "icon1":"btn-settings",
+        "part1": " Opens the SETTINGS menu contains settings which affect the way the game is being played."
+
+      },
+      "textCombined3": {
+        "icon1":"info_btn",
+        "part1": "Opens the Information page."
+      },
+      "tf2": "The CREDIT and BET labels display the current balance and the total bet. \nClick on the labels to switch between token view and cash view.",
+      "textCombined4": {
+        "icon1":"btn-bet-down-normal",
+        "part1": "or",
+        "icon2": "btn-bet-up-normal",
+        "part2": "You can use the buttons to increase or decrease the current bet and make bet adjustments and"
+      },
+      "tf3": "open the betting menu where you can make changes to your bets.",
+      "tf4": "You can use the buttons to move the current bet up or down and open the betting menu \nwhere you can change bet allocations.",
+      "textCombined5": {
+        "icon1":"btn-bet-down-normal",
+        "part1": "Starts the game"
+      }
+    },
+    "page6": {
+      "title": "SETTINGS MENU",
+      "tf0": "INTRO SCREEN - toggles the introductory screen on and off\nAMBIENCE - toggles the ambient sound and music in the game on and off\nSOUND EFFECTS - Turns the game's sound effects on and off\nGAME HISTORY - Opens the game history page",
+      "tf1": "INFORMATION SCREEN",
+      "textCombined1": {
+        "icon1":"btn-bet-down-normal",
+        "part1": "and",
+        "icon2": "btn-bet-up-normal",
+        "part2": "scroll between information pages."
+      },
+      "tf2": "BET MENU",
+      "tf3": "The bet menu shows the bet multiplier available in the game, and the current total bet in both coins and cash.",
+      "textCombined2": {
+        "part1": "Use the",
+        "icon1":"btn-bet-down-normal",
+        "part2": "and",
+        "icon2": "btn-bet-up-normal",
+        "part3": "buttons in the BET and COIN VALUE fields to change the values."
+      },
+      "tf4": "The maximum win amount is limited to 5000 times the bet.",
+      "tf5": "A round yields up to 4 DP, and all remaining features are lost."
+    },
+    "page7": {
+      "title": "HOLD & SPINNER",
+      "tf0": "These are the MONEY symbols.\nAt every spin MONEY symbols take a random value from a predefined set.\nPossible values are: 1x, 2x, 3x, 4x, 5x, 6x, 7x, 8x, 9x, 10x, 11x, 12x, 14x, 16x, 18x,\n20x, 22x, 25x, 30x, 50x, 100x, 200x, 300x, 500x, 1000x or 2000x total bet.",
+      "tf1": "Whenever 3x MONEY symbols they trigger the HOLD & SPINNER BONUS.\nWhen the feature starts all MONEY symbols remain in place and all other symbols fade away.\nThe value of all MONEY symbols on the screen are added to the total win of the round.\nThe round stars with 4 respins. ALL MONEY symbols that hit after each respin reset the number of respins\nback to 4 and the value of each MONEY symbol on the screen is added to the total win of the round.\nThe round ends when there are no more respins left.\nWhen the feature is complete the total value collected so far is awarded.\nSpecial reels are in play during the respin round.",
+      "tf2": "The fish paying symbols are also FISH MONEY symbols. At every spin, this fish\ntake a random money value which can be won during the FREE SPINS feature.\nPossible value are: 2x, 5x, 10x, 15x, 25x, 50x, 100x, 200x, 500x, 1000x, 3333x,\n5000x, or 10000x total bet."
+    },
+    "page8": {
+      "title": "AUTOPLAY",
+      "tf0": "Click on the buttons showing the number of possible auto-spins to start Autoplay",
+      "tf1": "SKIP SCREENS options auto-skips the feature introduction and end screens after a short period of time"
+    }
+  },
+  "systemSettings": {
+    "title": "SYSTEM SETTINGS",
+    "switchModule": {
+      "switch_module_1": {
+         "tf": "BATTERY SAVER",
+        "desc": "SAVE BATTERY LIFE BY\nREDUCING ANIMATION SPEED"
+      
+      },
+      "switch_module_2": {
+        "tf": "QUICK SPIN",
+        "desc": "PLAY FASTER BY REDUCING\nTOTAL SPIN TIME"
+      },
+      "switch_module_3": {
+          "tf": "SOUND",
+        "desc": "TURN ON OR OFF THE GAME\nSOUNDS"
+      },
+      "switch_module_4": {
+        "tf": "SKIP INTRO",
+        "desc": "Skip intro screen"
+      },
+      "switch_module_5": {
+        "tf": "INTRO SCREEN",
+        "desc": "INTRO SCREEN"
+      }
+    },
+    "betSettings": {
+      "tfTotalBet": "TOTAL BET"
+    },
+    "linkModule":{
+      "tfGameHistory": "GAME HISTORY",
+      "tfHome": "HOME"
+    },
+    "tfSettings": "GENERAL SETTINGS",
+    "tfBetSettings": "BET SETTINGS"
+  },
+  "adjustBet": {
+    "title": "BET MULTIPLIER",
+    "tfBet": "BET",
+    "tfCoinValue": "COIN VALUE",
+    "tfTotalBet": "TOTAL BET",
+    "btnMax": "MAXIMUM BET",
+    "btnConfirm": "CONFIRM",
+    "tfCredit": "credit",
+    "tfCreditBet": "bet"
+  },
+  "history": {
+    "title": "HISTORY",
+    "tfdate": "DATE",
+    "tftotalBet": "TOTAL BET",
+    "tfwin": "WIN",
+    "tfbalance": "BALANCE"
+  },
+  "autoSpin": {
+    "title": "AUTOSPIN SETTINGS",
+    "tfNumber": "NUMBER OF AUTOSPINS",
+    "tfStop": "STOP AUTOSPIN",
+    "tfCheckbox1": "On any win",
+    "tfCheckbox2": "If bonus game is won",
+    "tfCheckbox3": "If single win exceeds",
+    "tfCheckbox4": "If cash balance increases by",
+    "tfCheckbox5": "If cash balance decreases by",
+    "tfConfirm": "CONFIRM",
+     "tfStartAutoPlay":"START AUTOPLAY",
+     "tfSkipScreen": "SKIP SCREEN",
+     "tfHeading":"AUTOPLAY SETTINGS",
+     "tfTurboSpin":"TURBO SPIN",
+     "tfQuickSpin":"QUICK SPIN",
+     "tfSkipSpin":"SUPER SPIN",
+     "tfMin":"MIN",
+     "tfMax":"MAX"
+  },
+  "freeSpins": {
+    "buy": "BUY\nFREE SPINS",
+    "left": "FREE SPINS\nLEFT"
+  },
+  "doubleChance": {
+    "bet":"BET",
+    "description": "EXTRA\nCHANCE OF THE\nSCATTER",
+    "doubleChance": "DOUBLE CHANCE",
+    "toWinFeature": "TO WIN FEATURE",
+    "onView": "ON",
+    "offView": "OFF"
+  },
+  "holdSpinner": {
+    "buy":"BUY",
+    "description": "HOLD&SPINNER",
+    "popupTitle" : "BUY\nHOLD&SPINNER"
+  },
+  "tfWinUpTo": "WIN UP TO 5000X",
+  "tfGoodLuck": "GOOD LUCK",
+ "tfWin": "TOTAL WIN: ",
+  "tfDesktopWin": "WIN",
+  "tfBet":"BET",
+  "tfBalance":"BALANCE",
+  "tfHoldSpace": "HOLD SPACE FOR TURBO SPIN",
+  "tumblewin": "TUMBLE WIN",
+  "tfholdspacebtnfor": "HOLD SPACE BUTTON FOR",
+  "tfturbospin": "TURBO SPIN",
+  "noBalance": {
+    "title": "INSUFFICIENT BALANCE",
+    "msg": "Add money to your account",
+    "add": "ADD"
+  },
+  "loseConnection": {
+    "title": "Error",
+    "tfMessage": "The Network Connection Lost"
+  },
+  "menuSettingsPanel": {
+    "btnRules": "GAME RULES",
+    "btnHistory": "GAME HISTORY",
+    "tfMusic": "MUSIC",
+    "tfSound": "SOUND",
+    "tfIntro": "SKIP SCREEN"
+  },
+  "turboPopup": {
+    "normal": "Normal Spins Activated",
+    "turbo": "Turbo Spins Activated",
+    "superTurbo": "Super Turbo Spins Activated"
+  },
+  "tfpressanywhereto": "PRESS ANYWHERE TO CONTINUE",
+  "tfFreeSpin": "FREE SPIN",
+  "tfYouHaveWon": "YOU HAVE WON",
+  "tfIn15FreeSpins": "IN 15 FREE SPINS",
+  "tfstart": "START",
+  "tfDonotShowAgain": "DO NOT SHOW AGAIN",
+  "tfMultiplierTotal": "MULTIPLIER\nTOTAL"
+}

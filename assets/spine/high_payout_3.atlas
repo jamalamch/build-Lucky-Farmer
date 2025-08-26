@@ -1,0 +1,57 @@
+high_payout_3.webp
+	size: 348, 519
+	filter: Linear, Linear
+BG
+	bounds: 174, 76, 168, 161
+	offsets: 1, 1, 170, 163
+BG_blur
+	bounds: 2, 163, 170, 163
+Frame Wood
+	bounds: 2, 328, 189, 191
+	offsets: 1, 1, 191, 193
+	rotate: 90
+banner_rays
+	bounds: 220, 2, 72, 68
+	offsets: 3, 3, 79, 73
+	rotate: 90
+glow_frame_00
+	bounds: 195, 356, 139, 161
+	offsets: 29, 19, 191, 193
+head
+	bounds: 2, 62, 99, 98
+	rotate: 90
+lt_eye
+	bounds: 336, 503, 14, 10
+	offsets: 1, 1, 16, 12
+	rotate: 90
+lt_eye_ball
+	bounds: 336, 477, 8, 9
+	offsets: 1, 1, 10, 11
+	rotate: 90
+lt_hair_strand
+	bounds: 174, 285, 16, 41
+	offsets: 0, 1, 16, 42
+lt_hand
+	bounds: 98, 3, 35, 120
+	rotate: 90
+neck
+	bounds: 2, 8, 52, 78
+	rotate: 90
+rt_clip
+	bounds: 195, 244, 110, 144
+	offsets: 0, 0, 123, 144
+	rotate: 90
+rt_eye
+	bounds: 336, 487, 14, 9
+	offsets: 1, 1, 16, 11
+	rotate: 90
+rt_eye_ball
+	bounds: 336, 467, 8, 8
+	offsets: 1, 1, 10, 10
+rt_hair_strand
+	bounds: 174, 239, 13, 44
+rt_hand
+	bounds: 102, 40, 41, 121
+smile
+	bounds: 82, 30, 30, 14
+	rotate: 90

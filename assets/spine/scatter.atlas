@@ -1,0 +1,127 @@
+scatter.webp
+	size: 1309, 554
+	filter: Linear, Linear
+Frame Wood
+	bounds: 988, 361, 189, 191
+	offsets: 1, 1, 191, 193
+banner_rays
+	bounds: 2, 3, 603, 549
+	offsets: 161, 25, 939, 582
+bg
+	bounds: 988, 189, 163, 170
+	offsets: 1, 1, 170, 172
+blinky_01
+	bounds: 642, 2, 28, 27
+	offsets: 47, 50, 119, 124
+	rotate: 90
+blinky_02
+	bounds: 1240, 435, 57, 56
+	offsets: 34, 36, 119, 124
+blinky_03
+	bounds: 1103, 18, 90, 97
+	offsets: 14, 14, 119, 124
+	rotate: 90
+blinky_04
+	bounds: 988, 76, 111, 113
+	offsets: 6, 7, 119, 124
+	rotate: 90
+blinky_05
+	bounds: 1153, 221, 119, 123
+	offsets: 0, 0, 119, 124
+blinky_06
+	bounds: 1153, 110, 114, 109
+	offsets: 5, 9, 119, 124
+blinky_07
+	bounds: 1202, 27, 81, 79
+	offsets: 23, 24, 119, 124
+	rotate: 90
+blinky_08
+	bounds: 1240, 493, 64, 59
+	offsets: 30, 34, 119, 124
+blinky_09
+	bounds: 1067, 7, 32, 34
+	offsets: 45, 48, 119, 124
+	rotate: 90
+glow_frame_00
+	bounds: 811, 34, 139, 161
+	offsets: 29, 19, 191, 193
+	rotate: 90
+house
+	bounds: 607, 32, 202, 141
+	offsets: 18, 72, 227, 227
+particles
+	bounds: 607, 175, 379, 377
+	offsets: 215, 204, 800, 795
+sctrfarm 1
+	bounds: 1179, 346, 206, 59
+	offsets: 1, 2, 208, 63
+	rotate: 90
+sheen_00
+	bounds: 974, 159, 14, 12
+	offsets: 53, 19, 208, 63
+	rotate: 90
+sheen_01
+	bounds: 732, 9, 21, 25
+	offsets: 53, 17, 208, 63
+	rotate: 90
+sheen_02
+	bounds: 671, 4, 27, 26
+	offsets: 52, 17, 208, 63
+sheen_03
+	bounds: 1274, 246, 33, 33
+	offsets: 52, 15, 208, 63
+sheen_04
+	bounds: 1274, 323, 40, 33
+	offsets: 52, 15, 208, 63
+	rotate: 90
+sheen_05
+	bounds: 974, 41, 44, 33
+	offsets: 52, 15, 208, 63
+sheen_06
+	bounds: 1020, 41, 44, 33
+	offsets: 58, 15, 208, 63
+sheen_07
+	bounds: 1240, 400, 45, 33
+	offsets: 64, 15, 208, 63
+sheen_08
+	bounds: 1021, 6, 44, 33
+	offsets: 71, 15, 208, 63
+sheen_09
+	bounds: 1103, 119, 47, 33
+	offsets: 76, 15, 208, 63
+sheen_10
+	bounds: 974, 7, 45, 32
+	offsets: 83, 16, 208, 63
+sheen_11
+	bounds: 1103, 154, 48, 33
+	offsets: 89, 15, 208, 63
+sheen_12
+	bounds: 1269, 130, 43, 32
+	offsets: 96, 16, 208, 63
+	rotate: 90
+sheen_13
+	bounds: 1269, 175, 44, 33
+	offsets: 103, 15, 208, 63
+	rotate: 90
+sheen_14
+	bounds: 1240, 365, 45, 33
+	offsets: 109, 15, 208, 63
+sheen_15
+	bounds: 1274, 281, 40, 33
+	offsets: 116, 15, 208, 63
+	rotate: 90
+sheen_16
+	bounds: 1066, 41, 35, 33
+	offsets: 121, 15, 208, 63
+sheen_17
+	bounds: 607, 2, 28, 33
+	offsets: 128, 15, 208, 63
+	rotate: 90
+sheen_18
+	bounds: 700, 8, 22, 30
+	offsets: 134, 16, 208, 63
+	rotate: 90
+sheen_19
+	bounds: 1153, 358, 1, 1
+sheen_20
+	bounds: 1153, 358, 1, 1

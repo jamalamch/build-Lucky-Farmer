@@ -1,0 +1,17 @@
+low_payout_3.webp
+	size: 480, 197
+	filter: Linear, Linear
+base
+	bounds: 200, 5, 190, 190
+	offsets: 1, 1, 192, 192
+fork
+	bounds: 392, 79, 86, 116
+	offsets: 1, 1, 88, 118
+handle
+	bounds: 392, 61, 16, 66
+	offsets: 7, 115, 32, 182
+	rotate: 90
+rays
+	bounds: 2, 2, 193, 196
+	offsets: 5, 5, 203, 206
+	rotate: 90

@@ -1,0 +1,3592 @@
+{
+  "layout": {
+    "children": [
+			{
+				"cls": "starling.display.Image",
+				"constructorParams": [
+					{
+						"cls": "starling.textures.Texture",
+						"textureName": "Fram33"
+					}
+				],
+				"customParams": {},
+				"params": {
+					"name": "background",
+					"pivotX": 196,
+					"pivotY": 384,
+					"scale9Grid": {
+						"cls": "flash.geom.Rectangle",
+						"customParams": {},
+						"params": {
+							"height": 309,
+							"width": 330,
+							"x": 20,
+							"y": 20
+						}
+					},
+					"scaleX": 3.4,
+					"scaleY": 2.7,
+					"x": 648.5,
+					"y": 997.25
+				}
+			},
+      {
+				"cls": "starling.display.Image",
+				"constructorParams": [
+					{
+						"cls": "starling.textures.Texture",
+						"textureName": "adjustbet-panel-btn-max"
+					}
+				],
+				"customParams": {},
+				"params": {
+					"alpha": 0.55,
+					"color": "0x000000",
+					"name": "valueBG",
+					"scale9Grid": {
+						"cls": "flash.geom.Rectangle",
+						"customParams": {},
+						"params": {
+							"height": 34,
+							"width": 62,
+							"x": 46,
+							"y": 25
+						}
+					},
+					"scaleX": 4.66,
+					"x": 49.02,
+					"y": 764
+				}
+			},
+      {
+        "children": [
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "close-button"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "normal",
+              "anchorX": 0.5,
+              "anchorY": 0.5
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {
+          "customComponentClass": "Button"
+        },
+        "params": {
+          "name": "btnClose",
+          "x": 1148,
+          "y": -40
+        },
+        "tweenData": {
+          "animation": {
+            "type": "bounce"
+          }
+        }
+      },
+			{
+				"children": [
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "prev-button"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "normal",
+							"pivotX": 50,
+							"pivotY": 50,
+							"scaleX": 0.6,
+							"scaleY": 0.6,
+							"x": -392.25,
+							"y": 35.25
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "btnPreviousPage",
+					"pivotX": -435.95,
+					"pivotY": 35.55,
+					"x": 59.55,
+					"y": 799.5
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+			{
+				"children": [
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "next-button"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "normal",
+							"pivotX": 50,
+							"pivotY": 50,
+							"scaleX": 0.6,
+							"scaleY": 0.6,
+							"x": -479.98,
+							"y": 35.25
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "btnNextPage",
+					"pivotX": -528.69,
+					"pivotY": 35.55,
+					"x": 132.62,
+					"y": 799.5
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+      {
+        "cls": "starling.text.TextField",
+        "constructorParams": [
+          {
+            "value": 200
+          },
+          {
+            "value": 100
+          },
+          {
+            "value": ""
+          }
+        ],
+        "customParams": {},
+        "params": {
+          "format": {
+            "cls": "starling.text.TextFormat",
+            "customParams": {},
+            "params": {
+              "color": 16777215,
+              "font": "Alexandria",
+              "horizontalAlign": "right",
+              "size": 46
+            }
+          },
+          "height": 38,
+          "name": "tfPageNumber",
+          "pivotX": 50,
+          "pivotY": 19,
+          "text": "1/6",
+          "width": 100,
+          "x": 1103.5,
+          "y": 798.5
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 51,
+              "name": "title",
+              "pivotX": 443.5,
+              "pivotY": 25.5,
+              "text": "Game Rules",
+              "width": 887,
+              "x": 630,
+              "y": 63
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page1.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf0",
+              "pivotX": 443.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 887,
+              "x": 630,
+              "y": 116.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page1.tf0"
+            }
+          },
+          {
+            "children": [
+              {
+                "cls": "starling.display.Quad",
+                "constructorParams": [
+                  {
+                    "name": "width",
+                    "type": "Number",
+                    "value": 765
+                  },
+                  {
+                    "name": "height",
+                    "type": "Number",
+                    "value": 524
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "alpha": 0.54,
+                  "name": "area",
+                  "scaleX": 1.31,
+                  "scaleY": 0.93
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {},
+                    "params": {
+                      "name": "staticIcon",
+                      "scaleX": 0.65,
+                      "scaleY": 0.65
+                    }
+                  },
+                  {
+                    "children": [],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {},
+                    "params": {
+                      "name": "staticIcon2",
+                      "scaleX": 0.65,
+                      "scaleY": 0.65
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "5x",
+                          "text": "5x",
+                          "width": 44
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "4x",
+                          "text": "4x",
+                          "width": 44,
+                          "y": 18
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "3x",
+                          "text": "3x",
+                          "width": 44,
+                          "y": 36
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "2x",
+                          "text": "2x",
+                          "width": 44,
+                          "y": 54
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "separator5",
+                          "text": "-",
+                          "width": 44,
+                          "x": 36.5
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "separator4",
+                          "text": "-",
+                          "width": 44,
+                          "x": 36.5,
+                          "y": 18
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "separator3",
+                          "text": "-",
+                          "width": 44,
+                          "x": 36.5,
+                          "y": 36
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "separator2",
+                          "text": "-",
+                          "width": 44,
+                          "x": 36.5,
+                          "y": 54
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "tfPays5",
+                          "text": "0",
+                          "width": 44,
+                          "x": 56
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "tfPays4",
+                          "text": "0",
+                          "width": 44,
+                          "x": 56,
+                          "y": 18
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "tfPays3",
+                          "text": "0",
+                          "width": 44,
+                          "x": 56,
+                          "y": 36
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 15
+                            }
+                          },
+                          "height": 18,
+                          "name": "tfPays2",
+                          "text": "0",
+                          "width": 44,
+                          "x": 56,
+                          "y": 54
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {},
+                    "params": {
+                      "name": "multiplierDescription",
+                      "pivotX": 50,
+                      "x": 10,
+                      "y": 80
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {
+                  "customComponentClass": "PaytableSymbolCellDesktop",
+                  "forEditor": true
+                },
+                "params": {
+                  "name": "PaytableSymbolDesktop",
+                  "x": 500
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {},
+            "params": {
+              "name": "item_1",
+              "pivotX": 501.08,
+              "pivotY": -1.16,
+              "x": 630,
+              "y": 170
+            }
+          },
+          {
+            "children": [
+              {
+                "cls": "starling.display.Quad",
+                "constructorParams": [
+                  {
+                    "name": "width",
+                    "type": "Number",
+                    "value": 100
+                  },
+                  {
+                    "name": "height",
+                    "type": "Number",
+                    "value": 100
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "alpha": 0.5,
+                  "color": 16711680,
+                  "name": "area",
+                  "scaleX": 5.4,
+                  "scaleY": 1.4
+                }
+              },
+              {
+                "cls": "starling.text.TextField",
+                "constructorParams": [
+                  {
+                    "value": 200
+                  },
+                  {
+                    "value": 100
+                  },
+                  {
+                    "value": ""
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "format": {
+                    "cls": "starling.text.TextFormat",
+                    "customParams": {},
+                    "params": {
+                      "color": 16777215,
+                      "font": "Alexandria",
+                      "horizontalAlign": "left",
+                      "kerning": false,
+                      "size": 20
+                    }
+                  },
+                  "height": 87,
+                  "name": "tfDescription",
+                  "pivotY": 43.5,
+                  "text": "-",
+                  "width": 310,
+                  "x": 130,
+                  "y": 60
+                },
+                "tweenData": {
+                  "translation-key": "paytableDesktop.page1.item2"
+                }
+              },
+              {
+                "children": [],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "iconSlot"
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "name": "item_2",
+              "x": 115,
+              "y": 600
+            }
+          },
+          {
+            "children": [
+              {
+                "cls": "starling.display.Quad",
+                "constructorParams": [
+                  {
+                    "name": "width",
+                    "type": "Number",
+                    "value": 100
+                  },
+                  {
+                    "name": "height",
+                    "type": "Number",
+                    "value": 100
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "alpha": 0.5,
+                  "color": 16711680,
+                  "name": "area",
+                  "scaleX": 5.4,
+                  "scaleY": 1.4
+                }
+              },
+              {
+                "cls": "starling.text.TextField",
+                "constructorParams": [
+                  {
+                    "value": 200
+                  },
+                  {
+                    "value": 100
+                  },
+                  {
+                    "value": ""
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "format": {
+                    "cls": "starling.text.TextFormat",
+                    "customParams": {},
+                    "params": {
+                      "color": 16777215,
+                      "font": "Alexandria",
+                      "horizontalAlign": "left",
+                      "kerning": false,
+                      "size": 20
+                    }
+                  },
+                  "height": 87,
+                  "name": "130",
+                  "pivotY": 43.5,
+                  "text": "-\r",
+                  "width": 310,
+                  "x": 150,
+                  "y": 60
+                },
+                "tweenData": {
+                  "translation-key": "paytableDesktop.page1.item3"
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Quad",
+                    "constructorParams": [
+                      {
+                        "name": "width",
+                        "type": "Number",
+                        "value": 270
+                      },
+                      {
+                        "name": "height",
+                        "type": "Number",
+                        "value": 220
+                      }
+                    ],
+                    "customParams": {
+                      "forEditor": true
+                    },
+                    "params": {
+                      "alpha": 0.5,
+                      "name": "sizeReference",
+                      "scaleX": 0.85,
+                      "scaleY": 0.64
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "iconSlot"
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "name": "item_3",
+              "x": 700,
+              "y": 600
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_0",
+          "pivotY": 37.5,
+          "y": 37.5
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "horizontalAlign": "left",
+                  "size": 20
+                }
+              },
+              "height": 84,
+              "name": "tf0",
+              "pivotY": 42,
+              "text": "-",
+              "width": 1021,
+              "x": 290,
+              "y": 149
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page7.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 306
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page7.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "kerning": false,
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 449
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page7.tf1"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "horizontalAlign": "left",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf2",
+              "pivotY": 28,
+              "text": "-",
+              "width": 500,
+              "x": 290,
+              "y": 632
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page7.tf2"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_1",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10,
+          "y": 20
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 148
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 84,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 42,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 197.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 249
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf1"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf2",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 295
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf2"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf3",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 356.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf3"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf4",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 452
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf4"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf5",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 509
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf5"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf6",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 577
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf6"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf7",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 635
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page3.tf7"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_2",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 84,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 42,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 175.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 225
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf1"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 56,
+              "name": "tf2",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 316
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf2"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf3",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 400
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf3"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 56,
+              "name": "tf4",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 513
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf4"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf5",
+              "pivotX": 552.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1105,
+              "x": 653.5,
+              "y": 602
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page2.tf5"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_3",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 57
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 119.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 185
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf1"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf2",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 222
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf2"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 28,
+              "name": "tf3",
+              "pivotX": 510.5,
+              "pivotY": 14,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 260
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf3"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 28,
+              "name": "tf4",
+              "pivotX": 510.5,
+              "pivotY": 14,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 474.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf4"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf5",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 566
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf5"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf6",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 699
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf6"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 56,
+              "name": "tf7",
+              "pivotX": 510.5,
+              "pivotY": 28,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 646
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page4.tf7"
+            }
+          },
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "paylines"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "paylines",
+              "pivotX": 285,
+              "pivotY": 64.5,
+              "x": 653.5,
+              "y": 370
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_4",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10,
+          "y": 37.5
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 57
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.title"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined1.part1"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "minusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "x": 590.5,
+                      "y": 92
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part2",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined1.part2"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "plusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon2",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 92
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part3",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined1.part3"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined1",
+              "pivotX": 47.25,
+              "pivotY": 91.5,
+              "x": 100,
+              "y": 91.5
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 147.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 252
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.tf1"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "settn_icons"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "x": 94.5,
+                      "y": 86
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined2.part1"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined2",
+              "pivotX": 605,
+              "pivotY": 106.08,
+              "x": 653,
+              "y": 301.08
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "info_btn"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "y": 90
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined3.part1"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 94,
+                  "x": 605,
+                  "y": 94
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined3",
+              "pivotX": 605,
+              "pivotY": 108.5,
+              "x": 653,
+              "y": 360.5
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 48,
+              "name": "tf2",
+              "pivotX": 510.5,
+              "pivotY": 48,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 452
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.tf2"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "minusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "x": 590.5,
+                      "y": 92
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined4.part1"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "plusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon2",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 92
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part2",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined4.part2"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined4",
+              "pivotX": 605,
+              "pivotY": 120.66,
+              "x": 653,
+              "y": 513.66
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf3",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 538
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.tf3"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 48,
+              "name": "tf4",
+              "pivotX": 100,
+              "text": "-",
+              "width": 200,
+              "x": 653.5,
+              "y": 580
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page5.tf4"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "reload2_icon"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "pivotY": 22,
+                      "y": 105.5
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page5.textCombined5.part1"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined5",
+              "pivotX": 607.63,
+              "pivotY": 106.08,
+              "x": 653,
+              "y": 672.58
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_5",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10,
+          "y": 37.5
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 57
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 128,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 64,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 143.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 256.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf1"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "prev-button "
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 90
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page6.textCombined1.part1"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "next-button"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon2",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 90
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part2",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page6.textCombined1.part2"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined1",
+              "pivotX": 47.25,
+              "pivotY": 91.5,
+              "x": 100,
+              "y": 310.5
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "tf2",
+              "pivotX": 510.5,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 396
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf2"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf3",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 442.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf3"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part1",
+                      "text": "-",
+                      "width": 1021,
+                      "x": 94.5,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page6.textCombined2.part1"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "minusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon1",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 90
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part2",
+                      "text": "-",
+                      "width": 1021,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page6.textCombined2.part2"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "plusButton"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "icon2",
+                      "scaleX": 0.5,
+                      "scaleY": 0.5,
+                      "y": 90
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 20
+                        }
+                      },
+                      "height": 24,
+                      "name": "part3",
+                      "text": "-",
+                      "width": 1021,
+                      "y": 94
+                    },
+                    "tweenData": {
+                      "translation-key": "paytableDesktop.page6.textCombined2.part3"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "content",
+                  "pivotX": 557.75,
+                  "pivotY": 106.08,
+                  "x": 605,
+                  "y": 106.08
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {
+              "customComponentClass": "TextSpriteCombined"
+            },
+            "params": {
+              "name": "textCombined2",
+              "pivotX": 605,
+              "pivotY": 108.5,
+              "x": 653,
+              "y": 486
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf4",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 554.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf4"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf5",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 624.5
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page6.tf5"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_6",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10,
+          "y": 37.5
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "bold": true,
+                  "color": "#FD6302",
+                  "font": "Alexandria-Bold",
+                  "size": 32
+                }
+              },
+              "height": 39,
+              "name": "title",
+              "pivotX": 200,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 400,
+              "x": 653.5,
+              "y": 129
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page8.title"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 39,
+              "name": "tf0",
+              "pivotX": 510.5,
+              "pivotY": 19.5,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 190
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page8.tf0"
+            }
+          },
+          {
+            "cls": "starling.text.TextField",
+            "constructorParams": [
+              {
+                "value": 200
+              },
+              {
+                "value": 100
+              },
+              {
+                "value": ""
+              }
+            ],
+            "customParams": {
+              "customComponentClass": ""
+            },
+            "params": {
+              "format": {
+                "cls": "starling.text.TextFormat",
+                "customParams": {},
+                "params": {
+                  "color": 16777215,
+                  "font": "Alexandria",
+                  "size": 20
+                }
+              },
+              "height": 24,
+              "name": "tf1",
+              "pivotX": 510.5,
+              "pivotY": 12,
+              "text": "-",
+              "width": 1021,
+              "x": 653.5,
+              "y": 258
+            },
+            "tweenData": {
+              "translation-key": "paytableDesktop.page8.tf1"
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {},
+        "params": {
+          "name": "page_7",
+          "pivotX": 35.5,
+          "pivotY": 37.5,
+          "x": 10
+        }
+      }
+    ],
+    "cls": "starling.display.Sprite",
+    "customParams": {
+      "customComponentClass": "PaytablePanelDesktop"
+    },
+    "params": {
+      "name": "PaytablePanelDesktop",
+      "pivotX": 642.75,
+      "pivotY": 440,
+      "x": 960,
+      "y": 490.4
+    }
+  }
+}

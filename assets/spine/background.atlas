@@ -1,0 +1,48 @@
+background.webp
+	size: 1997, 677
+	filter: Linear, Linear
+	scale: 0.5
+back_clouds
+	bounds: 2, 307, 962, 368
+	offsets: 0, 14, 962, 462
+banner_rays
+	bounds: 1849, 376, 144, 137
+	offsets: 50, 6, 236, 148
+clouds1
+	bounds: 1708, 124, 287, 247
+clouds2
+	bounds: 1334, 41, 372, 321
+clouds3
+	bounds: 966, 197, 366, 165
+dust_three
+	bounds: 758, 26, 282, 119
+	offsets: 9, 2, 293, 127
+fire_ember_particle
+	bounds: 1835, 26, 96, 81
+	offsets: 4, 0, 100, 100
+	rotate: 90
+front_clouds
+	bounds: 2, 147, 962, 158
+	offsets: 0, 14, 962, 462
+leaves
+	bounds: 1042, 8, 187, 259
+	rotate: 90
+leaves2
+	bounds: 393, 5, 140, 363
+	rotate: 90
+leaves3
+	bounds: 1501, 373, 302, 346
+	offsets: 0, 0, 302, 349
+	rotate: 90
+leaves4
+	bounds: 1708, 36, 86, 125
+	rotate: 90
+leaves5
+	bounds: 1849, 515, 143, 160
+lt_sign
+	bounds: 966, 364, 311, 533
+	offsets: 0, 0, 311, 556
+	rotate: 90
+rt_sign
+	bounds: 2, 2, 143, 389
+	rotate: 90

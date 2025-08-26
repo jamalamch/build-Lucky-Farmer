@@ -1,0 +1,32 @@
+character.webp
+	size: 708, 478
+	filter: Linear, Linear
+	scale: 0.5
+aprin
+	bounds: 520, 202, 274, 186
+	offsets: 12, 0, 296, 192
+	rotate: 90
+head
+	bounds: 532, 2, 137, 198
+lt_eye
+	bounds: 266, 114, 26, 15
+	rotate: 90
+lt_eye_ball
+	bounds: 520, 189, 11, 10
+	rotate: 90
+lt_hand
+	bounds: 289, 31, 130, 241
+	rotate: 90
+pants
+	bounds: 289, 163, 229, 313
+rt_eye
+	bounds: 2, 11, 23, 14
+rt_eye_ball
+	bounds: 671, 189, 12, 11
+rt_hand
+	bounds: 2, 27, 113, 262
+	offsets: 0, 2, 113, 264
+	rotate: 90
+shirt
+	bounds: 2, 142, 285, 334
+	offsets: 41, 29, 386, 418

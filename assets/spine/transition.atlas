@@ -1,0 +1,6 @@
+transition.webp
+	size: 535, 530
+	filter: Linear, Linear
+	scale: 0.5
+leaf
+	bounds: 2, 2, 531, 526

@@ -1,0 +1,3741 @@
+{
+  "layout": {
+    "children": [
+			{
+				"cls":"starling.display.Image",
+				"constructorParams":[
+				  {
+					"cls":"starling.textures.Texture",
+					"textureName":"Fram33"
+				  }
+				],
+				"customParams":{},
+				"params":{
+				  "name":"background",
+				  "pivotX":183.5,
+				  "pivotY":190,
+				  "scale9Grid":{
+					"cls":"flash.geom.Rectangle",
+					"customParams":{},
+					"params":{
+					  "height":310,
+					  "width":329,
+					  "x":20,
+					  "y":20
+					}
+				  },
+				  "scaleX":2.9,
+				  "scaleY":5.14,
+				  "x":540.29,
+				  "y":983.15
+				}
+			},
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "cls": "starling.display.Quad",
+                "constructorParams": [
+                  {
+                    "name": "width",
+                    "type": "Number",
+                    "value": 100
+                  },
+                  {
+                    "name": "height",
+                    "type": "Number",
+                    "value": 200
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "alpha": 0.01,
+                  "color": 0,
+                  "name": "spacerTop",
+                  "scaleY": 0.2
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 46
+                        }
+                      },
+                      "height": 51,
+                      "name": "title",
+                      "pivotX": 443.5,
+                      "text": "Game Rules",
+                      "width": 887,
+                      "x": 490,
+                      "y": -25.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page1.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 35
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf0",
+                      "pivotX": 443.5,
+                      "text": "-",
+                      "width": 887,
+                      "x": 490,
+                      "y": -28
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page1.tf0"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 50
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 50
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.5,
+                          "color": 16711680,
+                          "name": "area",
+                          "scaleX": 19.6,
+                          "scaleY": 6
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "cls": "starling.display.Sprite",
+                            "customParams": {},
+                            "params": {
+                              "name": "staticIcon",
+                              "scaleX": 1.3,
+                              "scaleY": 1.3
+                            }
+                          },
+                          {
+                            "children": [],
+                            "cls": "starling.display.Sprite",
+                            "customParams": {},
+                            "params": {
+                              "name": "staticIcon2"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "5x",
+                                  "text": "5x",
+                                  "width": 31.2
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "4x",
+                                  "text": "4x",
+                                  "width": 31.2,
+                                  "y": 41
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "3x",
+                                  "text": "3x",
+                                  "width": 31.2,
+                                  "y": 82
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "2x",
+                                  "text": "2x",
+                                  "width": 31.2,
+                                  "y": 122
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "bold": true,
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "tfPays5",
+                                  "text": "0",
+                                  "width": 17.6,
+                                  "x": 85
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "bold": true,
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "tfPays4",
+                                  "text": "0",
+                                  "width": 17.6,
+                                  "x": 80,
+                                  "y": 41
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "bold": true,
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "tfPays3",
+                                  "text": "0",
+                                  "width": 17.6,
+                                  "x": 75,
+                                  "y": 82
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "bold": true,
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "tfPays2",
+                                  "text": "0",
+                                  "width": 17.6,
+                                  "x": 75,
+                                  "y": 122
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "separator5",
+                                  "text": "-",
+                                  "width": 12,
+                                  "y": -20
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "separator3",
+                                  "text": "-",
+                                  "width": 12,
+                                  "y": -20
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "separator2",
+                                  "text": "-",
+                                  "width": 12,
+                                  "y": -20
+                                }
+                              },
+                              {
+                                "cls": "starling.text.TextField",
+                                "constructorParams": [
+                                  {
+                                    "value": 200
+                                  },
+                                  {
+                                    "value": 100
+                                  },
+                                  {
+                                    "value": ""
+                                  }
+                                ],
+                                "customParams": {},
+                                "params": {
+                                  "autoSize": "horizontal",
+                                  "format": {
+                                    "cls": "starling.text.TextFormat",
+                                    "customParams": {},
+                                    "params": {
+                                      "color": 16777215,
+                                      "font": "Alexandria",
+                                      "size": 28
+                                    }
+                                  },
+                                  "height": 40,
+                                  "name": "separator4",
+                                  "text": "-",
+                                  "width": 12,
+                                  "y": -20
+                                }
+                              }
+                            ],
+                            "cls": "starling.display.Sprite",
+                            "customParams": {},
+                            "params": {
+                              "name": "multiplierDescription",
+                              "x": -60,
+                              "y": 112
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {
+                          "customComponentClass": "PaytableSymbolCellMobile",
+                          "forEditor": true
+                        },
+                        "params": {
+                          "name": "PaytableSymbolMobile"
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {},
+                    "params": {
+                      "name": "item_1"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 100
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 100
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.5,
+                          "color": 16711680,
+                          "name": "area",
+                          "scaleX": 9.8,
+                          "scaleY": 2.65
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "horizontalAlign": "left",
+                              "size": 30
+                            }
+                          },
+                          "height": 209,
+                          "name": "tfDescription",
+                          "style": {
+                            "cls": "starling.styles.DistanceFieldStyle",
+                            "customParams": {},
+                            "params": {
+                              "alpha": 0.57,
+                              "mode": "basic"
+                            }
+                          },
+                          "text": "-",
+                          "width": 450,
+                          "x": 405,
+                          "y": -33
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page1.item2"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "iconSlot",
+                          "x": 148
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "name": "item_2",
+                      "pivotX": 502.5,
+                      "x": 502.5,
+                      "y": 500
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 100
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 100
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.5,
+                          "color": 16711680,
+                          "name": "area",
+                          "scaleX": 9.8,
+                          "scaleY": 2.65
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "horizontalAlign": "left",
+                              "size": 30
+                            }
+                          },
+                          "height": 220,
+                          "name": "tfDescription",
+                          "pivotY": 110,
+                          "text": "-",
+                          "width": 450,
+                          "x": 440,
+                          "y": 112
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page1.item3"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Quad",
+                            "constructorParams": [
+                              {
+                                "name": "width",
+                                "type": "Number",
+                                "value": 270
+                              },
+                              {
+                                "name": "height",
+                                "type": "Number",
+                                "value": 220
+                              }
+                            ],
+                            "customParams": {
+                              "forEditor": true
+                            },
+                            "params": {
+                              "alpha": 0.5,
+                              "name": "sizeReference"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "iconSlot",
+                          "x": 137
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "name": "item_3",
+                      "pivotX": 490,
+                      "x": 490,
+                      "y": 900
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_1",
+                  "pivotY": -0.24,
+                  "y": -0.24
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 84,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 200
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page7.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 39,
+                      "name": "title",
+                      "pivotX": 200,
+                      "text": "TITLE",
+                      "width": 400,
+                      "x": 491,
+                      "y": 56
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page7.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 500
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page7.tf1"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 600
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page7.tf2"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_2",
+                  "pivotY": 56
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 84,
+                      "name": "title",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 84,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 200
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 500
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf1"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 600
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf2"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 100,
+                      "name": "tf3",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 700
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf3"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf4",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1000
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf4"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf5",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1200
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf5"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf6",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1500
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf6"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf7",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1600
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page3.tf7"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_3",
+                  "pivotY": 56
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 44
+                        }
+                      },
+                      "height": 84,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 200
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 500
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf1"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 44
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 600
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf2"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 100,
+                      "name": "tf3",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 700
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf3"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 44
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf4",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1000
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf4"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf5",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 1200
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page2.tf5"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_4",
+                  "pivotY": 56,
+                  "y": 56
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 39,
+                      "name": "title",
+                      "pivotX": 200,
+                      "text": "OYUN KURALLARI",
+                      "width": 400,
+                      "x": 491,
+                      "y": 37.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 91.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 177.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf1"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 263.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf2"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 28,
+                      "name": "tf3",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 349.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf3"
+                    }
+                  },
+                  {
+                    "cls": "starling.display.Image",
+                    "constructorParams": [
+                      {
+                        "cls": "starling.textures.Texture",
+                        "textureName": "paylines-mobile"
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "name": "paylines-mobile",
+                      "pivotX": 191.5,
+                      "scaleX": 1.5,
+                      "scaleY": 1.5,
+                      "x": 491,
+                      "y": -56
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 28,
+                      "name": "tf4",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 407.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf4"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf5",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 451.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf5"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf7",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 637.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf7"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 56,
+                      "name": "tf6",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 551.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page4.tf6"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_5",
+                  "pivotX": 1,
+                  "pivotY": 37.5,
+                  "x": 1,
+                  "y": 37.5
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 39,
+                      "name": "title",
+                      "pivotX": 200,
+                      "text": "-",
+                      "width": 400,
+                      "x": 491,
+                      "y": 37.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.title"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {
+                          "customComponentClass": ""
+                        },
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 30
+                            }
+                          },
+                          "height": 24,
+                          "name": "tfAbove",
+                          "pivotX": 490,
+                          "text": "Oyunda kullanmak istediğiniz bahsinizi seçin.",
+                          "width": 980,
+                          "x": 491.73,
+                          "y": 79.5
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page5.tf0"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "minusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "x": 590.5,
+                              "y": 79
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": "Bahis değerini değiştirmek ve bahis menüsünü açmak için",
+                              "width": 200,
+                              "x": 94.5,
+                              "y": 96
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined1.part1"
+                            }
+                          },
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "plusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon2",
+                              "y": 79
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part2",
+                              "text": "-",
+                              "width": 200,
+                              "x": 94.5,
+                              "y": 96
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined1.part2"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": 79,
+                          "y": -12.5
+                        }
+                      },
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 2.08
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined1",
+                      "pivotX": 491.73,
+                      "pivotY": -12.5,
+                      "x": 491,
+                      "y": -104
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 135.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.tf1"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 42
+                        }
+                      },
+                      "height": 39,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 232.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.tf2"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 2.08
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "settn_icons"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "scaleX": 2,
+                              "scaleY": 2,
+                              "x": 94.5,
+                              "y": 74
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": " oyunun oynanma şeklini etkileyen ayarları içeren AYARLAR menüsünü açar.",
+                              "width": 200,
+                              "y": 94
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined2.part1"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": 86,
+                          "y": -8
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {
+                          "customComponentClass": ""
+                        },
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 30
+                            }
+                          },
+                          "height": 24,
+                          "name": "tfUnder",
+                          "pivotX": 490,
+                          "text": "KREDİ ve BAHİS etiketleri mevcut ",
+                          "width": 980,
+                          "x": 491.73
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page5.tf3"
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined2",
+                      "pivotX": 491.73,
+                      "pivotY": -8,
+                      "x": 491,
+                      "y": 187
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 3.33
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "info_btn"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "scaleX": 2,
+                              "scaleY": 2,
+                              "y": 79
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": " oyunun oynanma şeklini etkileyen ayarları içeren AYARLAR menüsünü açar.",
+                              "width": 200,
+                              "x": 94.5,
+                              "y": 94
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined3.part1"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": 79,
+                          "y": -1
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined3",
+                      "pivotX": 491.73,
+                      "pivotY": -1,
+                      "x": 466.87,
+                      "y": 251
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 48,
+                      "name": "tf4",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 404
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.tf4"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 3.33
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "minusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "x": 590.5,
+                              "y": -16
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": "-",
+                              "width": 200,
+                              "x": 94.5
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined4.part1"
+                            }
+                          },
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "plusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon2",
+                              "y": -16
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part2",
+                              "text": "-",
+                              "width": 200,
+                              "x": 94.5
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined4.part2"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": -20
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {
+                          "customComponentClass": ""
+                        },
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 30
+                            }
+                          },
+                          "height": 24,
+                          "name": "tfUnder",
+                          "pivotX": 490,
+                          "text": "-",
+                          "width": 980,
+                          "x": 491.73,
+                          "y": 79.5
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page5.tf5"
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined4",
+                      "pivotX": 491.73,
+                      "x": 491,
+                      "y": 408.5
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf6",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 526
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.tf6"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf7",
+                      "pivotY": 12,
+                      "text": "-",
+                      "width": 980,
+                      "x": 1,
+                      "y": 12
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page5.tf7"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "pivotY": 12,
+                          "scaleX": 0.89,
+                          "scaleY": 3.33,
+                          "y": 39.96
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "reload2_icon"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "scaleX": 1.5,
+                              "scaleY": 1.5,
+                              "y": -13
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "pivotY": 12,
+                              "text": "-",
+                              "width": 200,
+                              "x": 115,
+                              "y": 12
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page5.textCombined5.part1"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": 20,
+                          "y": 37
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined5",
+                      "pivotX": -45,
+                      "pivotY": 30.13,
+                      "x": -45,
+                      "y": 606.63
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_6",
+                  "pivotX": -4.23,
+                  "pivotY": -24,
+                  "x": -4.23,
+                  "y": -24
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 39,
+                      "name": "title",
+                      "pivotX": 200,
+                      "text": "NASIL OYNANIR",
+                      "width": 400,
+                      "x": 491,
+                      "y": 37.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 128,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 79.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 42
+                        }
+                      },
+                      "height": 39,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 237
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf1"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 2.42
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "prev-button "
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "y": 80
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": "Bahis değerini değiştirmek ve bahis menüsünü açmak için",
+                              "width": 200,
+                              "x": 94.5,
+                              "y": 90
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page6.textCombined1.part1"
+                            }
+                          },
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "next-button"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon2",
+                              "y": 80
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part2",
+                              "text": "veya",
+                              "width": 200,
+                              "x": 94.5,
+                              "y": 90
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page6.textCombined1.part2"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": 80
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined1",
+                      "pivotX": 491.73,
+                      "x": 491,
+                      "y": 219
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 42
+                        }
+                      },
+                      "height": 39,
+                      "name": "tf2",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 376.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf2"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf3",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 430.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf3"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "cls": "starling.display.Quad",
+                        "constructorParams": [
+                          {
+                            "name": "width",
+                            "type": "Number",
+                            "value": 1105
+                          },
+                          {
+                            "name": "height",
+                            "type": "Number",
+                            "value": 24
+                          }
+                        ],
+                        "customParams": {},
+                        "params": {
+                          "alpha": 0.27,
+                          "name": "area",
+                          "scaleX": 0.89,
+                          "scaleY": 3.33
+                        }
+                      },
+                      {
+                        "cls": "starling.text.TextField",
+                        "constructorParams": [
+                          {
+                            "value": 200
+                          },
+                          {
+                            "value": 100
+                          },
+                          {
+                            "value": ""
+                          }
+                        ],
+                        "customParams": {
+                          "customComponentClass": ""
+                        },
+                        "params": {
+                          "format": {
+                            "cls": "starling.text.TextFormat",
+                            "customParams": {},
+                            "params": {
+                              "color": 16777215,
+                              "font": "Alexandria",
+                              "size": 30
+                            }
+                          },
+                          "height": 24,
+                          "name": "tfUnder",
+                          "pivotX": 490,
+                          "text": "-",
+                          "width": 980,
+                          "x": 491.73,
+                          "y": 82
+                        },
+                        "tweenData": {
+                          "translation-key": "paytable.page6.tf4"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part1",
+                              "text": "-",
+                              "width": 200,
+                              "x": 94.5
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page6.textCombined2.part1"
+                            }
+                          },
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "minusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon1",
+                              "y": -20
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part2",
+                              "text": "-",
+                              "width": 200,
+                              "x": 250
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page6.textCombined2.part2"
+                            }
+                          },
+                          {
+                            "cls": "starling.display.Image",
+                            "constructorParams": [
+                              {
+                                "cls": "starling.textures.Texture",
+                                "textureName": "plusButton"
+                              }
+                            ],
+                            "customParams": {},
+                            "params": {
+                              "name": "icon2",
+                              "y": -20
+                            }
+                          },
+                          {
+                            "cls": "starling.text.TextField",
+                            "constructorParams": [
+                              {
+                                "value": 200
+                              },
+                              {
+                                "value": 100
+                              },
+                              {
+                                "value": ""
+                              }
+                            ],
+                            "customParams": {
+                              "customComponentClass": ""
+                            },
+                            "params": {
+                              "format": {
+                                "cls": "starling.text.TextFormat",
+                                "customParams": {},
+                                "params": {
+                                  "color": 16777215,
+                                  "font": "Alexandria",
+                                  "size": 30
+                                }
+                              },
+                              "height": 24,
+                              "name": "part3",
+                              "text": "-",
+                              "width": 200,
+                              "x": 600
+                            },
+                            "tweenData": {
+                              "translation-key": "paytable.page6.textCombined2.part3"
+                            }
+                          }
+                        ],
+                        "cls": "starling.display.Sprite",
+                        "customParams": {},
+                        "params": {
+                          "name": "content",
+                          "pivotY": -20
+                        }
+                      }
+                    ],
+                    "cls": "starling.display.Sprite",
+                    "customParams": {
+                      "customComponentClass": "TextSpriteCombined"
+                    },
+                    "params": {
+                      "name": "textCombined2",
+                      "pivotX": 491.73,
+                      "x": 491,
+                      "y": 377.5
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf5",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 488
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf5"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 24,
+                      "name": "tf6",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 538
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page6.tf6"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_7",
+                  "pivotY": 37.5,
+                  "y": 37.5
+                }
+              },
+              {
+                "children": [
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {},
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "bold": true,
+                          "color": "#FD6302",
+                          "font": "Alexandria-Bold",
+                          "size": 44
+                        }
+                      },
+                      "height": 39,
+                      "name": "title",
+                      "pivotX": 200,
+                      "text": "-",
+                      "width": 400,
+                      "x": 491,
+                      "y": 37.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page8.title"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 128,
+                      "name": "tf0",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 79.5
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page8.tf0"
+                    }
+                  },
+                  {
+                    "cls": "starling.text.TextField",
+                    "constructorParams": [
+                      {
+                        "value": 200
+                      },
+                      {
+                        "value": 100
+                      },
+                      {
+                        "value": ""
+                      }
+                    ],
+                    "customParams": {
+                      "customComponentClass": ""
+                    },
+                    "params": {
+                      "format": {
+                        "cls": "starling.text.TextFormat",
+                        "customParams": {},
+                        "params": {
+                          "color": 16777215,
+                          "font": "Alexandria",
+                          "size": 30
+                        }
+                      },
+                      "height": 39,
+                      "name": "tf1",
+                      "pivotX": 490,
+                      "text": "-",
+                      "width": 980,
+                      "x": 491,
+                      "y": 237
+                    },
+                    "tweenData": {
+                      "translation-key": "paytable.page8.tf1"
+                    }
+                  }
+                ],
+                "cls": "starling.display.Sprite",
+                "customParams": {},
+                "params": {
+                  "name": "page_8",
+                  "pivotY": 37.5
+                }
+              },
+              {
+                "cls": "starling.display.Quad",
+                "constructorParams": [
+                  {
+                    "name": "width",
+                    "type": "Number",
+                    "value": 100
+                  },
+                  {
+                    "name": "height",
+                    "type": "Number",
+                    "value": 200
+                  }
+                ],
+                "customParams": {},
+                "params": {
+                  "alpha": 0.01,
+                  "color": 0,
+                  "name": "spacerBottom",
+                  "scaleY": 0.05,
+                  "y": 11000
+                }
+              }
+            ],
+            "cls": "starling.display.Sprite",
+            "customParams": {},
+            "params": {
+              "name": "content"
+            }
+          },
+          {
+            "cls": "starling.display.Quad",
+            "constructorParams": [
+              {
+                "name": "width",
+                "type": "Number",
+                "value": 901
+              },
+              {
+                "name": "height",
+                "type": "Number",
+                "value": 1366
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "alpha": 0.5,
+              "color": 16719637,
+              "name": "area",
+              "scaleX": 1.09,
+              "scaleY": 1.23
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {
+          "customComponentClass": "PaytableContent"
+        },
+        "params": {
+          "name": "scrollBox",
+          "pivotX": -2.5,
+          "pivotY": -24,
+          "x": 46.51,
+          "y": 25
+        }
+      },
+      {
+        "children": [
+          {
+            "cls": "starling.display.Image",
+            "constructorParams": [
+              {
+                "cls": "starling.textures.Texture",
+                "textureName": "close-button"
+              }
+            ],
+            "customParams": {},
+            "params": {
+              "name": "normal",
+              "scaleX": 2,
+              "scaleY": 2
+            }
+          }
+        ],
+        "cls": "starling.display.Sprite",
+        "customParams": {
+          "customComponentClass": "Button"
+        },
+        "params": {
+          "name": "btnClose",
+          "pivotX": 67,
+          "pivotY": 67,
+          "x": 540
+        },
+        "tweenData": {
+          "animation": {
+            "type": "bounce"
+          }
+        }
+      }
+    ],
+    "cls": "starling.display.Sprite",
+    "customParams": {
+      "customComponentClass": "PaytablePanelMobile"
+    },
+    "params": {
+      "name": "PaytablePanelMobile",
+      "pivotX": 540,
+      "pivotY": 1853,
+      "x": 540,
+      "y": 1920
+    }
+  }
+}

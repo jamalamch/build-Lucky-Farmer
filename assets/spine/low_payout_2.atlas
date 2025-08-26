@@ -1,0 +1,17 @@
+low_payout_2.webp
+	size: 505, 197
+	filter: Linear, Linear
+base
+	bounds: 200, 5, 190, 190
+	offsets: 1, 1, 192, 192
+leaf
+	bounds: 392, 2, 80, 70
+	offsets: 0, 2, 80, 73
+rays
+	bounds: 2, 2, 193, 196
+	offsets: 5, 5, 203, 206
+	rotate: 90
+tomato
+	bounds: 392, 74, 121, 111
+	offsets: 1, 0, 122, 111
+	rotate: 90

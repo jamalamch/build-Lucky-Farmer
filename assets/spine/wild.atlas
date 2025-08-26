@@ -1,0 +1,158 @@
+wild.webp
+	size: 411, 1031
+	filter: Linear, Linear
+BG
+	bounds: 220, 703, 168, 161
+	offsets: 1, 1, 170, 163
+BG_blur
+	bounds: 223, 866, 170, 163
+Frame Wood
+	bounds: 2, 722, 189, 191
+	offsets: 1, 1, 191, 193
+	rotate: 90
+aprin
+	bounds: 2, 913, 116, 219
+	offsets: 10, 0, 150, 219
+	rotate: 90
+face
+	bounds: 155, 546, 55, 79
+fx/wild_0
+	bounds: 214, 2, 134, 50
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_14
+	bounds: 214, 2, 134, 50
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_29
+	bounds: 214, 2, 134, 50
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_1
+	bounds: 2, 250, 140, 41
+	offsets: 28, 88, 200, 200
+fx/wild_10
+	bounds: 205, 242, 137, 48
+	offsets: 30, 82, 200, 200
+fx/wild_11
+	bounds: 2, 198, 136, 50
+	offsets: 31, 79, 200, 200
+fx/wild_12
+	bounds: 2, 146, 136, 50
+	offsets: 31, 78, 200, 200
+fx/wild_13
+	bounds: 199, 190, 135, 50
+	offsets: 32, 76, 200, 200
+fx/wild_15
+	bounds: 149, 264, 134, 54
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_16
+	bounds: 2, 2, 134, 70
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_17
+	bounds: 74, 2, 134, 68
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_18
+	bounds: 144, 2, 134, 68
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_19
+	bounds: 210, 337, 144, 71
+	offsets: 23, 72, 200, 200
+fx/wild_2
+	bounds: 195, 627, 146, 21
+	offsets: 25, 97, 200, 200
+	rotate: 90
+fx/wild_20
+	bounds: 2, 359, 145, 80
+	offsets: 22, 61, 200, 200
+fx/wild_21
+	bounds: 210, 410, 144, 80
+	offsets: 23, 58, 200, 200
+fx/wild_22
+	bounds: 212, 492, 149, 68
+	offsets: 27, 59, 200, 200
+fx/wild_23
+	bounds: 2, 496, 150, 70
+	offsets: 33, 57, 200, 200
+fx/wild_24
+	bounds: 2, 643, 151, 77
+	offsets: 33, 57, 200, 200
+fx/wild_25
+	bounds: 2, 568, 151, 73
+	offsets: 33, 64, 200, 200
+fx/wild_26
+	bounds: 2, 293, 143, 64
+	offsets: 33, 75, 200, 200
+fx/wild_27
+	bounds: 344, 149, 134, 64
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_28
+	bounds: 356, 285, 134, 53
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_3
+	bounds: 2, 441, 149, 53
+	offsets: 24, 77, 200, 200
+fx/wild_4
+	bounds: 154, 400, 144, 54
+	offsets: 29, 70, 200, 200
+	rotate: 90
+fx/wild_5
+	bounds: 195, 775, 136, 23
+	offsets: 35, 81, 200, 200
+	rotate: 90
+fx/wild_6
+	bounds: 318, 4, 132, 41
+	offsets: 36, 71, 200, 200
+	rotate: 90
+fx/wild_7
+	bounds: 266, 2, 134, 50
+	offsets: 33, 75, 200, 200
+	rotate: 90
+fx/wild_8
+	bounds: 205, 292, 139, 43
+	offsets: 29, 87, 200, 200
+fx/wild_9
+	bounds: 363, 421, 139, 46
+	offsets: 29, 84, 200, 200
+	rotate: 90
+glow_frame_00
+	bounds: 218, 562, 139, 161
+	offsets: 29, 19, 191, 193
+	rotate: 90
+lt_eye
+	bounds: 395, 986, 11, 6
+	offsets: 1, 1, 13, 8
+lt_eye_ball
+	bounds: 395, 947, 5, 4
+	offsets: 1, 1, 7, 6
+lt_hand
+	bounds: 144, 166, 53, 96
+moutache
+	bounds: 395, 994, 35, 11
+	offsets: 1, 0, 36, 11
+	rotate: 90
+mouth
+	bounds: 395, 961, 23, 9
+	offsets: 1, 1, 26, 11
+	rotate: 90
+nose
+	bounds: 390, 847, 17, 17
+	offsets: 1, 1, 19, 19
+rt_eye
+	bounds: 395, 953, 9, 6
+	offsets: 1, 1, 11, 8
+rt_eye_ball
+	bounds: 402, 947, 5, 4
+	offsets: 1, 1, 7, 6
+rt_hand
+	bounds: 361, 45, 45, 102
+	offsets: 0, 1, 46, 103
+wild
+	bounds: 199, 138, 135, 50
+	offsets: 1, 1, 137, 52

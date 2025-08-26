@@ -1,0 +1,31 @@
+low_payout_4.webp
+	size: 198, 623
+	filter: Linear, Linear
+base
+	bounds: 2, 233, 190, 190
+	offsets: 1, 1, 192, 192
+corn
+	bounds: 2, 112, 53, 112
+	rotate: 90
+leaf1
+	bounds: 116, 122, 77, 38
+leaf2
+	bounds: 75, 2, 63, 58
+leaf3
+	bounds: 2, 167, 64, 147
+	rotate: 90
+leaf4
+	bounds: 116, 62, 58, 71
+	rotate: 90
+leaf5
+	bounds: 2, 66, 44, 99
+	rotate: 90
+leaf6
+	bounds: 151, 162, 69, 45
+	rotate: 90
+leaf7
+	bounds: 2, 6, 58, 71
+	rotate: 90
+rays
+	bounds: 2, 425, 193, 196
+	offsets: 5, 5, 203, 206

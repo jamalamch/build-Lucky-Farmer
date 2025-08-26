@@ -1,0 +1,34 @@
+spin.webp
+size:2048,2048
+filter:Linear,Linear
+12 1
+bounds:2,110,307,300
+offsets:3,1,310,302
+13
+bounds:555,617,350,141
+offsets:1,0,351,142
+rotate:90
+I
+bounds:555,520,43,95
+offsets:1,1,45,97
+N
+bounds:1312,1330,114,110
+offsets:1,1,116,112
+P
+bounds:2,2,94,106
+offsets:1,1,96,108
+S
+bounds:311,311,89,99
+offsets:1,1,91,101
+Stop icon
+bounds:2,412,551,555
+offsets:89,41,729,731
+exa-icon
+bounds:698,925,48,42
+offsets:0,0,49,42
+infinity_icon
+bounds:2,969,850,471
+offsets:10,0,865,516
+wood
+bounds:854,988,456,452
+offsets:21,50,498,532

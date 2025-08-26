@@ -1,0 +1,6 @@
+hook.webp
+	size: 97, 1095
+	filter: Linear, Linear
+hook
+	bounds: 2, 2, 93, 1091
+	offsets: 9, 0, 102, 1091

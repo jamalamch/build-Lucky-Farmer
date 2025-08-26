@@ -1,0 +1,118 @@
+high_payout_5_red.webp
+	size: 1011, 586
+	filter: Linear, Linear
+air_smoke_00
+	bounds: 670, 2, 10, 36
+	offsets: 19, 11, 55, 96
+	rotate: 90
+air_smoke_01
+	bounds: 670, 2, 10, 36
+	offsets: 19, 11, 55, 96
+	rotate: 90
+air_smoke_02
+	bounds: 988, 224, 15, 45
+	offsets: 16, 12, 55, 96
+air_smoke_03
+	bounds: 988, 271, 17, 58
+	offsets: 14, 13, 55, 96
+air_smoke_04
+	bounds: 988, 331, 18, 61
+	offsets: 14, 14, 55, 96
+air_smoke_05
+	bounds: 988, 452, 18, 64
+	offsets: 14, 15, 55, 96
+air_smoke_06
+	bounds: 988, 452, 18, 64
+	offsets: 14, 15, 55, 96
+air_smoke_07
+	bounds: 988, 518, 20, 66
+	offsets: 13, 16, 55, 96
+air_smoke_08
+	bounds: 600, 13, 20, 68
+	offsets: 13, 17, 55, 96
+	rotate: 90
+air_smoke_09
+	bounds: 343, 12, 21, 67
+	offsets: 13, 19, 55, 96
+	rotate: 90
+air_smoke_10
+	bounds: 205, 11, 22, 67
+	offsets: 12, 20, 55, 96
+	rotate: 90
+air_smoke_11
+	bounds: 274, 11, 22, 67
+	offsets: 12, 20, 55, 96
+	rotate: 90
+air_smoke_12
+	bounds: 2, 10, 23, 66
+	offsets: 12, 21, 55, 96
+	rotate: 90
+air_smoke_13
+	bounds: 70, 10, 23, 66
+	offsets: 12, 21, 55, 96
+	rotate: 90
+air_smoke_14
+	bounds: 138, 10, 23, 65
+	offsets: 12, 22, 55, 96
+	rotate: 90
+air_smoke_15
+	bounds: 412, 10, 23, 61
+	offsets: 12, 27, 55, 96
+	rotate: 90
+air_smoke_16
+	bounds: 412, 10, 23, 61
+	offsets: 12, 27, 55, 96
+	rotate: 90
+air_smoke_17
+	bounds: 475, 10, 23, 61
+	offsets: 12, 27, 55, 96
+	rotate: 90
+air_smoke_18
+	bounds: 538, 10, 23, 60
+	offsets: 12, 28, 55, 96
+	rotate: 90
+air_smoke_19
+	bounds: 988, 394, 20, 56
+	offsets: 12, 32, 55, 96
+air_smoke_20
+	bounds: 988, 194, 18, 28
+	offsets: 12, 39, 55, 96
+air_smoke_21
+	bounds: 988, 194, 18, 28
+	offsets: 12, 39, 55, 96
+air_smoke_22
+	bounds: 656, 55, 12, 27
+	offsets: 13, 40, 55, 96
+banner_rays
+	bounds: 2, 35, 603, 549
+	offsets: 161, 25, 939, 582
+base
+	bounds: 670, 14, 191, 191
+	offsets: 1, 1, 193, 193
+body
+	bounds: 863, 45, 160, 92
+	offsets: 13, 19, 173, 111
+	rotate: 90
+particles
+	bounds: 607, 207, 379, 377
+	offsets: 215, 204, 800, 795
+placeholder
+	bounds: 2, 7, 1, 1
+smoke
+	bounds: 600, 2, 9, 38
+	offsets: 1, 1, 11, 40
+	rotate: 90
+tyre1
+	bounds: 957, 143, 49, 52
+	offsets: 1, 1, 51, 54
+	rotate: 90
+tyre2
+	bounds: 607, 141, 60, 64
+	offsets: 1, 1, 62, 66
+tyre3
+	bounds: 607, 84, 55, 59
+	offsets: 1, 1, 57, 61
+	rotate: 90
+tyre4
+	bounds: 607, 35, 47, 47
+	offsets: 1, 1, 49, 52

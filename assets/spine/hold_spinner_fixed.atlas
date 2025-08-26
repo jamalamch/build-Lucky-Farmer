@@ -1,0 +1,72 @@
+hold_spinner_fixed.webp
+	size: 1254, 554
+	filter: Linear, Linear
+BG
+	bounds: 607, 12, 168, 161
+	offsets: 1, 1, 170, 163
+Frame Wood
+	bounds: 988, 361, 189, 191
+	offsets: 1, 1, 191, 193
+banner_rays
+	bounds: 2, 3, 603, 549
+	offsets: 161, 25, 939, 582
+basket
+	bounds: 988, 208, 152, 151
+	offsets: 1, 1, 154, 153
+blinky_01
+	bounds: 1179, 361, 28, 27
+	offsets: 47, 50, 119, 124
+blinky_02
+	bounds: 1179, 435, 57, 56
+	offsets: 34, 36, 119, 124
+blinky_03
+	bounds: 1142, 153, 90, 97
+	offsets: 14, 14, 119, 124
+	rotate: 90
+blinky_04
+	bounds: 1121, 40, 111, 113
+	offsets: 6, 7, 119, 124
+	rotate: 90
+blinky_05
+	bounds: 1000, 83, 119, 123
+	offsets: 0, 0, 119, 124
+blinky_06
+	bounds: 1142, 245, 114, 109
+	offsets: 5, 9, 119, 124
+	rotate: 90
+blinky_07
+	bounds: 1000, 2, 81, 79
+	offsets: 23, 24, 119, 124
+blinky_08
+	bounds: 1179, 493, 64, 59
+	offsets: 30, 34, 119, 124
+blinky_09
+	bounds: 1083, 2, 32, 34
+	offsets: 45, 48, 119, 124
+	rotate: 90
+egg1
+	bounds: 1083, 36, 36, 45
+	offsets: 1, 1, 38, 47
+egg2
+	bounds: 1223, 389, 44, 29
+	offsets: 1, 1, 46, 31
+	rotate: 90
+egg3
+	bounds: 918, 2, 43, 44
+	offsets: 1, 1, 45, 46
+	rotate: 90
+egg4
+	bounds: 1179, 390, 42, 43
+	offsets: 1, 1, 44, 45
+eggs
+	bounds: 918, 47, 126, 80
+	offsets: 1, 1, 128, 82
+	rotate: 90
+glow_frame_00
+	bounds: 777, 12, 139, 161
+	offsets: 29, 19, 191, 193
+particles
+	bounds: 607, 175, 379, 377
+	offsets: 215, 204, 800, 795
+placeholder
+	bounds: 988, 205, 1, 1
